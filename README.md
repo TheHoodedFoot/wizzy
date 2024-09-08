@@ -2,7 +2,7 @@
 
 ![Wizzy logo](/res/img/wizzy.png)
 
-![Badge](https://git.47or.com/thf/wizzy/actions/workflows/gentoo-amd64.yaml/badge.svg?branch=master)
+![Badge](https://git.47or.com/thf/wizzy/actions/workflows/gentoo-arm64.yaml/badge.svg?branch=master)
 
 </div>
 
