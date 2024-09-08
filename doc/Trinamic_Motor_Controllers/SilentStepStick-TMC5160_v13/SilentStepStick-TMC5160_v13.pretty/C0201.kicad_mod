@@ -1,0 +1,129 @@
+(footprint "C0201"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Source: http://www.avxcorp.com/docs/catalogs/cx5r.pdf")
+	(property "Reference" "REF**"
+		(at -0.635 -0.635 0)
+		(layer "F.SilkS")
+		(uuid "3a712127-7155-4cae-a04f-2ccbe3267743")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "C0201"
+		(at -0.635 1.905 0)
+		(layer "F.Fab")
+		(uuid "3ef8d4f6-95da-45bd-a6e0-6adc2182777e")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8265b4c-3311-4615-ba0b-63ad687bf7b4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2364862e-6008-41a2-b14a-ffea6d40c27c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bc442ee2-2f95-4368-bd86-cd7a09ffe8a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_poly
+		(pts
+			(xy -0.3 0.15) (xy -0.15 0.15) (xy -0.15 -0.15) (xy -0.3 -0.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "b30ae630-ef1b-430c-ac4d-0cd7bbb4739e")
+	)
+	(fp_poly
+		(pts
+			(xy -0.15 -0.1) (xy 0.15 -0.1) (xy 0.15 -0.15) (xy -0.15 -0.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "09c86bd5-e428-4602-826a-c93d437c88f5")
+	)
+	(fp_poly
+		(pts
+			(xy -0.15 0.15) (xy 0.15 0.15) (xy 0.15 0.1) (xy -0.15 0.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "4892ae62-bc64-4020-8414-5f7c5fe1f81c")
+	)
+	(fp_poly
+		(pts
+			(xy 0.15 0.15) (xy 0.3 0.15) (xy 0.3 -0.15) (xy 0.15 -0.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "c1fc7fc9-061b-425f-b041-7701367fa456")
+	)
+	(pad "1" smd rect
+		(at -0.25 0)
+		(size 0.25 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 0)
+		(uuid "6f1e2b75-a376-4386-9cd4-6c0f44c4613f")
+	)
+	(pad "2" smd rect
+		(at 0.25 0)
+		(size 0.25 0.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 0)
+		(uuid "40dfc82e-4426-42a9-b932-db97f8f89c7c")
+	)
+)

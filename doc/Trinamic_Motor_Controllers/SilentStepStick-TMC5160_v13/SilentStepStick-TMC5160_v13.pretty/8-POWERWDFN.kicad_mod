@@ -1,0 +1,180 @@
+(footprint "8-POWERWDFN"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Power 33 (3mm x 3mm MLP) package for FDMC8030 dual N-channel PowerTrench MOSFET. https://www.fairchildsemi.com/datasheets/FD/FDMC8030.pdf")
+	(property "Reference" "REF**"
+		(at -1.778 -2.032 0)
+		(layer "F.SilkS")
+		(uuid "3552fd4a-6916-4dfc-ad3c-f3d45b82ebff")
+		(effects
+			(font
+				(size 0.560832 0.560832)
+				(thickness 0.048768)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "8-POWERWDFN"
+		(at -1.524 3.048 0)
+		(layer "F.Fab")
+		(uuid "30daa5f7-cf8a-489d-b414-1b903ec582de")
+		(effects
+			(font
+				(size 0.560832 0.560832)
+				(thickness 0.048768)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "20117c19-fea4-438a-b329-c401db9e32ed")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "202b1dcb-f42d-47f7-bb0f-bfd67335c1de")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5431ad86-6379-4a59-bc5b-985004f72e77")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end -1.36 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e0c50a76-23b5-460d-8b45-365179d86325")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ddb834c-6b84-4afe-adf0-9b18a11c4c9a")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.36 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0d26f585-2e2e-4a56-a670-9feb3dc9b5d4")
+	)
+	(fp_line
+		(start 1.36 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "33689714-1304-411d-86af-67a40729aaa0")
+	)
+	(fp_line
+		(start 1.36 1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a78f21ce-d6c6-481b-ae9c-2fa2cd10f0a5")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8875ed0d-2077-487b-b26c-c284ada7c6d8")
+	)
+	(fp_circle
+		(center -1.03 2.03)
+		(end -0.93 2.03)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "19f7560e-7cc2-4fbb-9b50-d4a62223d43f")
+	)
+	(pad "P$1" smd rect
+		(at -0.975 1.385)
+		(size 0.45 0.52)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 0)
+		(uuid "89b1a3cc-086e-4ba7-8aa0-db49d1b3e8c8")
+	)
+	(pad "P$4" smd rect
+		(at 0.325 1.385)
+		(size 1.75 0.52)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 0)
+		(uuid "dd7e0f10-5f97-42bd-9278-3c18d0e5e1f8")
+	)
+	(pad "P$5" smd rect
+		(at 0.325 -1.385)
+		(size 1.75 0.52)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 0)
+		(uuid "7c9fc188-4654-4029-b696-6060645b7ef8")
+	)
+	(pad "P$8" smd rect
+		(at -0.975 -1.385 180)
+		(size 0.45 0.52)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 0)
+		(uuid "c9066b4f-75b9-4a15-b284-d2d3f00e8934")
+	)
+	(pad "P$D1" smd rect
+		(at 0 0.55)
+		(size 2.52 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 0)
+		(uuid "55a07a3a-f3b4-48e1-b95d-18c0d487f384")
+	)
+	(pad "P$D2" smd rect
+		(at 0 -0.55)
+		(size 2.52 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 0)
+		(uuid "2ef84019-baca-4724-8741-7d84254e06c7")
+	)
+)

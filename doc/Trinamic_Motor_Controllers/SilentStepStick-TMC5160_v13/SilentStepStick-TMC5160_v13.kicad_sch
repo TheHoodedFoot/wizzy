@@ -1,0 +1,10427 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "0473d0fa-3594-40c8-9290-94726960dacd")
+	(paper "User" 425.45 298.602)
+	(lib_symbols
+		(symbol "SilentStepStick-TMC5160_v13-eagle-import:C-EUC0201"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.524 0.381 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.524 -4.699 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SilentStepStick-TMC5160_v13:C0201"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAPACITOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C-EUC0201_1_0"
+				(rectangle
+					(start -2.032 -2.032)
+					(end 2.032 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 -1.016)
+					(end 2.032 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SilentStepStick-TMC5160_v13-eagle-import:C-EUC0402"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.524 0.381 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.524 -4.699 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SilentStepStick-TMC5160_v13:C0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAPACITOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C-EUC0402_1_0"
+				(rectangle
+					(start -2.032 -2.032)
+					(end 2.032 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 -1.016)
+					(end 2.032 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SilentStepStick-TMC5160_v13-eagle-import:C-EUC0805"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 1.524 0.381 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 1.524 -4.699 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SilentStepStick-TMC5160_v13:C0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAPACITOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C-EUC0805_1_0"
+				(rectangle
+					(start -2.032 -2.032)
+					(end 2.032 -1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -2.032 -1.016)
+					(end 2.032 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SilentStepStick-TMC5160_v13-eagle-import:FDMC8030"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at -5.334 8.128 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 4.064 -9.398 0)
+				(effects
+					(font
+						(size 1.27 1.0795)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SilentStepStick-TMC5160_v13:8-POWERWDFN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "FDMC8030 two N-Channel MOSFETs https://www.fairchildsemi.com/datasheets/FD/FDMC8030.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FDMC8030_1_0"
+				(polyline
+					(pts
+						(xy -10.16 -7.62) (xy 10.16 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 7.62) (xy -10.16 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 10.16 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 7.62) (xy -10.16 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 0 0)
+					(length 5.08)
+					(name "1-G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -12.7 90)
+					(length 5.08)
+					(name "4-S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 -12.7 90)
+					(length 5.08)
+					(name "5-S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "8-G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 12.7 270)
+					(length 5.08)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$D1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 12.7 270)
+					(length 5.08)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "P$D2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SilentStepStick-TMC5160_v13-eagle-import:FRAME-A3L"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FRAME"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Frame: DIN A3 Landscape"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FRAME-A3L_1_0"
+				(polyline
+					(pts
+						(xy 0 52.07) (xy 3.81 52.07)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 104.14) (xy 3.81 104.14)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 156.21) (xy 3.81 156.21)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 208.28) (xy 3.81 208.28)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 3.81) (xy 3.81 256.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 48.4188 0) (xy 48.4188 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 48.4188 256.54) (xy 48.4188 260.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 96.8375 0) (xy 96.8375 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 96.8375 256.54) (xy 96.8375 260.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 145.2563 0) (xy 145.2563 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 145.2563 256.54) (xy 145.2563 260.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 193.675 0) (xy 193.675 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 193.675 256.54) (xy 193.675 260.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 242.0938 0) (xy 242.0938 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 242.0938 256.54) (xy 242.0938 260.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 288.29 3.81) (xy 288.29 24.13)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 288.29 3.81) (xy 342.265 3.81)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 288.29 24.13) (xy 342.265 24.13)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 290.5125 0) (xy 290.5125 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 290.5125 256.54) (xy 290.5125 260.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 338.9313 0) (xy 338.9313 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 338.9313 256.54) (xy 338.9313 260.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 342.265 3.81) (xy 373.38 3.81)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 342.265 8.89) (xy 342.265 3.81)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 342.265 8.89) (xy 342.265 13.97)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 342.265 13.97) (xy 342.265 19.05)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 342.265 13.97) (xy 383.54 13.97)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 342.265 19.05) (xy 342.265 24.13)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 342.265 19.05) (xy 383.54 19.05)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 342.265 24.13) (xy 383.54 24.13)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 373.38 3.81) (xy 373.38 8.89)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 373.38 3.81) (xy 383.54 3.81)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 373.38 8.89) (xy 342.265 8.89)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 373.38 8.89) (xy 383.54 8.89)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 383.54 3.81) (xy 3.81 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 383.54 3.81) (xy 383.54 8.89)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 383.54 3.81) (xy 383.54 256.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 383.54 8.89) (xy 383.54 13.97)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 383.54 13.97) (xy 383.54 19.05)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 383.54 19.05) (xy 383.54 24.13)
+					)
+					(stroke
+						(width 0.1016)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 383.54 52.07) (xy 387.35 52.07)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 383.54 104.14) (xy 387.35 104.14)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 383.54 156.21) (xy 387.35 156.21)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 383.54 208.28) (xy 387.35 208.28)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 383.54 256.54) (xy 3.81 256.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 387.35 0) (xy 387.35 260.35) (xy 0 260.35) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "${#}/${##}"
+					(at 357.505 5.08 0)
+					(effects
+						(font
+							(size 2.54 2.54)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "${CURRENT_DATE}"
+					(at 344.17 10.16 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "${PROJECTNAME}"
+					(at 344.17 15.24 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "1"
+					(at 24.2094 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "1"
+					(at 24.2094 258.445 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "2"
+					(at 72.6281 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "2"
+					(at 72.6281 258.445 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "3"
+					(at 121.0469 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "3"
+					(at 121.0469 258.445 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "4"
+					(at 169.4656 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "4"
+					(at 169.4656 258.445 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "5"
+					(at 217.8844 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "5"
+					(at 217.8844 258.445 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "6"
+					(at 266.3031 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "6"
+					(at 266.3031 258.445 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "7"
+					(at 314.7219 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "7"
+					(at 314.7219 258.445 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "8"
+					(at 363.1406 1.905 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "8"
+					(at 363.1406 258.445 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "A"
+					(at 1.905 234.315 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "A"
+					(at 385.445 234.315 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "B"
+					(at 1.905 182.245 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "B"
+					(at 385.445 182.245 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "C"
+					(at 1.905 130.175 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "C"
+					(at 385.445 130.175 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "D"
+					(at 1.905 78.105 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "D"
+					(at 385.445 78.105 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "E"
+					(at 1.905 26.035 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "E"
+					(at 385.445 26.035 0)
+					(effects
+						(font
+							(size 2.54 2.286)
+						)
+					)
+				)
+				(text "Sheet:"
+					(at 344.17 5.08 0)
+					(effects
+						(font
+							(size 2.54 2.54)
+						)
+						(justify left bottom)
+					)
+				)
+				(text "www.watterott.com"
+					(at 344.17 20.32 0)
+					(effects
+						(font
+							(size 2.032 2.032)
+						)
+						(justify left bottom)
+					)
+				)
+			)
+		)
+		(symbol "SilentStepStick-TMC5160_v13-eagle-import:GND"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUPPLY SYMBOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SilentStepStick-TMC5160_v13-eagle-import:LOGO_OSHW-2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LOGO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SilentStepStick-TMC5160_v13:OSHW_2MM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Open-Source-Hardware Logo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LOGO_OSHW-2_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "OS\nHW"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.778 1.5113)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SilentStepStick-TMC5160_v13-eagle-import:LOGO_SPARK-2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LOGO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SilentStepStick-TMC5160_v13:SPARK_2MM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Watterott electronic Logo"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LOGO_SPARK-2_1_0"
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Watterott"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.4224 1.209)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SilentStepStick-TMC5160_v13-eagle-import:MA02-1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -1.27 3.302 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SilentStepStick-TMC5160_v13:MA02-1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pin Header"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MA02-1_1_0"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.6096)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.6096)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy -1.27 -5.08)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SilentStepStick-TMC5160_v13-eagle-import:PAD-0.5_NC"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at -1.905 0 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SilentStepStick-TMC5160_v13:PAD-0.5_NC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pad / Test-Point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PAD-0.5_NC_1_0"
+				(polyline
+					(pts
+						(xy -1.016 -1.016) (xy 1.016 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "P"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SilentStepStick-TMC5160_v13-eagle-import:PASSER-04"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "SilentStepStick-TMC5160_v13:PASSER_04MM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PASSER-04_1_0"
+				(polyline
+					(pts
+						(xy -1.016 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.127)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "SilentStepStick-TMC5160_v13-eagle-import:PINHD-1X08_2.54-S"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -6.35 13.335 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -6.35 -12.7 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SilentStepStick-TMC5160_v13:1X08-S"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "PIN HEADER"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PINHD-1X08_2.54-S_1_0"
+				(polyline
+					(pts
+						(xy -6.35 -10.16) (xy 1.27 -10.16)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 12.7) (xy -6.35 -10.16)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -10.16) (xy 1.27 12.7)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 12.7) (xy -6.35 12.7)
+					)
+					(stroke
+						(width 0.4064)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 10.16 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 7.62 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 5.08 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "7"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "8"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SilentStepStick-TMC5160_v13-eagle-import:R-EU_R0402"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -3.81 1.4986 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -3.81 -3.302 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SilentStepStick-TMC5160_v13:R0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RESISTOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R-EU_R0402_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -0.889) (xy -2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.889) (xy 2.54 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.889) (xy 2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.889) (xy -2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SilentStepStick-TMC5160_v13-eagle-import:R-EU_R1206"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -3.81 1.4986 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -3.81 -3.302 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SilentStepStick-TMC5160_v13:R1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RESISTOR, European symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R-EU_R1206_1_0"
+				(polyline
+					(pts
+						(xy -2.54 -0.889) (xy -2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -0.889) (xy 2.54 -0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.889) (xy 2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0.889) (xy -2.54 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SilentStepStick-TMC5160_v13-eagle-import:TMC5160-WA"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 31.75 -7.62 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at 31.75 -10.16 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "SilentStepStick-TMC5160_v13:VQFN56(47)_8.0X8.0X0.9MM_0.5P_EP"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Universal high voltage controller for two-phase bipolar stepper motor. QFN8x8 wettable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TMC5160-WA_1_0"
+				(polyline
+					(pts
+						(xy 5.08 -106.68) (xy 58.42 -106.68)
+					)
+					(stroke
+						(width 0.51)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -106.68)
+					)
+					(stroke
+						(width 0.51)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 58.42 -106.68) (xy 58.42 2.54)
+					)
+					(stroke
+						(width 0.51)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 58.42 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.51)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 63.5 -20.32 180)
+					(length 5.08)
+					(name "BMB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 63.5 -40.64 180)
+					(length 5.08)
+					(name "SRBH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 63.5 -45.72 180)
+					(length 5.08)
+					(name "SRBL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 27.94 -111.76 90)
+					(length 5.08)
+					(name "GND(TST_MODE)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -58.42 0)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -24.13 0)
+					(length 5.08)
+					(name "CSN_CFG3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -26.67 0)
+					(length 5.08)
+					(name "SCK_CFG2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -29.21 0)
+					(length 5.08)
+					(name "SDI_CFG1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -31.75 0)
+					(length 5.08)
+					(name "SDO_CFG0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -68.58 0)
+					(length 5.08)
+					(name "REFL_STEP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -71.12 0)
+					(length 5.08)
+					(name "REFR_DIR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 63.5 -15.24 180)
+					(length 5.08)
+					(name "HB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -101.6 0)
+					(length 5.08)
+					(name "VCC_IO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -91.44 0)
+					(length 5.08)
+					(name "SD_MODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -96.52 0)
+					(length 5.08)
+					(name "SPI_MODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -81.28 0)
+					(length 5.08)
+					(name "ENCB_DCEN_CFG4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -78.74 0)
+					(length 5.08)
+					(name "ENCA_DCIN_CFG5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 35.56 -111.76 90)
+					(length 5.08)
+					(name "GNDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -83.82 0)
+					(length 5.08)
+					(name "ENCN_DCO_CFG6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -40.64 0)
+					(length 5.08)
+					(name "DIAG0_SWN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -38.1 0)
+					(length 5.08)
+					(name "DIAG1_SWP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -50.8 0)
+					(length 5.08)
+					(name "DRV_ENN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 63.5 -10.16 180)
+					(length 5.08)
+					(name "CB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 17.78 7.62 270)
+					(length 5.08)
+					(name "CPO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 30.48 7.62 270)
+					(length 5.08)
+					(name "CPI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 45.72 7.62 270)
+					(length 5.08)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 33.02 7.62 270)
+					(length 5.08)
+					(name "VCP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 63.5 -55.88 180)
+					(length 5.08)
+					(name "CA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 63.5 -60.96 180)
+					(length 5.08)
+					(name "HA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 63.5 -81.28 180)
+					(length 5.08)
+					(name "BMA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 63.5 -91.44 180)
+					(length 5.08)
+					(name "LA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 63.5 -86.36 180)
+					(length 5.08)
+					(name "LA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "12VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 63.5 -76.2 180)
+					(length 5.08)
+					(name "BMA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 63.5 -71.12 180)
+					(length 5.08)
+					(name "HA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 63.5 -66.04 180)
+					(length 5.08)
+					(name "CA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 63.5 0 180)
+					(length 5.08)
+					(name "CB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 63.5 -5.08 180)
+					(length 5.08)
+					(name "HB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 63.5 -25.4 180)
+					(length 5.08)
+					(name "BMB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 63.5 -35.56 180)
+					(length 5.08)
+					(name "LB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 63.5 -30.48 180)
+					(length 5.08)
+					(name "LB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 43.18 -111.76 90)
+					(length 5.08)
+					(name "GNDP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VSA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.32 -111.76 90)
+					(length 5.08)
+					(name "GNDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 63.5 -101.6 180)
+					(length 5.08)
+					(name "SRAL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 63.5 -96.52 180)
+					(length 5.08)
+					(name "SRAH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 293.37 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20a3a7cf-620b-455d-ae8a-f609b1fbc108")
+	)
+	(junction
+		(at 288.29 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26176cf1-4e97-412b-9bff-83d7f4c0711b")
+	)
+	(junction
+		(at 285.75 237.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "279d20b5-ebfc-4a6a-a035-3665b547799b")
+	)
+	(junction
+		(at 285.75 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5285576c-7fe0-4358-8988-b677e6f70305")
+	)
+	(junction
+		(at 110.49 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5660fd17-3812-4b4d-95ef-1ae1b81f0db0")
+	)
+	(junction
+		(at 278.13 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63676004-6e76-42e5-abe0-0ce6bd1b317c")
+	)
+	(junction
+		(at 293.37 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "666cb00b-1906-4dc5-b12f-3148ee52695a")
+	)
+	(junction
+		(at 102.87 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6dff5770-370f-4780-a214-7702bada23de")
+	)
+	(junction
+		(at 285.75 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77399009-a597-4a50-8be7-f1f2b01141c9")
+	)
+	(junction
+		(at 285.75 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85b67b98-23fa-4181-b538-2c54925d3bfd")
+	)
+	(junction
+		(at 285.75 252.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87c5cb9c-b986-4409-982c-f98590601615")
+	)
+	(junction
+		(at 288.29 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a6e8236-47e0-47f1-9cdb-d2b233d22320")
+	)
+	(junction
+		(at 288.29 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98496db2-290f-481d-8341-c51bbaa2cbdb")
+	)
+	(junction
+		(at 82.55 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c8306b6-9b1e-40ff-90e7-b9671e8e34e6")
+	)
+	(junction
+		(at 176.53 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a974095e-0745-4443-82b6-92ed80fc0022")
+	)
+	(junction
+		(at 288.29 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac038165-25ec-4578-b2a2-cf809f3e844a")
+	)
+	(junction
+		(at 285.75 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0d24476-fa96-4074-aee0-230828d6ac9e")
+	)
+	(junction
+		(at 158.75 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b17043b7-80f6-4396-82b3-e9134775b6ef")
+	)
+	(junction
+		(at 50.8 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b88205eb-0e1e-4d98-9913-12a745005579")
+	)
+	(junction
+		(at 140.97 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb455500-82c5-4cc9-99fc-6ceb3d83baa6")
+	)
+	(junction
+		(at 283.21 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d39a2717-d1af-45d3-9e60-e1ddb4357eac")
+	)
+	(junction
+		(at 283.21 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8e48885-3757-4a99-833a-485906a33c74")
+	)
+	(junction
+		(at 184.15 212.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd9ac3bc-1c82-429e-b234-0b3cb943a491")
+	)
+	(junction
+		(at 278.13 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec083900-04df-4193-9722-7594ddc82dc3")
+	)
+	(junction
+		(at 110.49 173.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb283170-5924-45e0-bf31-2b7decb9f1f1")
+	)
+	(wire
+		(pts
+			(xy 308.61 181.61) (xy 300.99 181.61)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "00a5bdc8-1d60-4d3d-873a-a66860bd3ece")
+	)
+	(wire
+		(pts
+			(xy 283.21 45.72) (xy 283.21 50.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "061717b0-e1cd-4017-aab7-520416725da1")
+	)
+	(wire
+		(pts
+			(xy 278.13 81.28) (xy 273.05 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0698c7b9-c64d-4f90-b023-dbc17f5149e3")
+	)
+	(wire
+		(pts
+			(xy 130.81 77.47) (xy 125.73 77.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "06f4f213-3a2e-4f20-b2ab-02c4b8f81083")
+	)
+	(wire
+		(pts
+			(xy 308.61 63.5) (xy 300.99 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "08aef4da-97e3-4402-935c-3037d962cede")
+	)
+	(wire
+		(pts
+			(xy 194.31 148.59) (xy 201.93 148.59)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0bf46791-af5a-4145-b895-9ad396d2ddb2")
+	)
+	(wire
+		(pts
+			(xy 110.49 173.99) (xy 110.49 179.07)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0d0b4115-5b71-4300-a287-93ac7b421168")
+	)
+	(wire
+		(pts
+			(xy 49.53 166.37) (xy 57.15 166.37)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0d5f7d21-533c-4656-be88-d4ea22b9e380")
+	)
+	(wire
+		(pts
+			(xy 173.99 59.69) (xy 176.53 59.69)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0e793ddd-dff2-4a9a-ac58-ccb2f589d763")
+	)
+	(wire
+		(pts
+			(xy 130.81 173.99) (xy 110.49 173.99)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "105c208c-481f-42fa-bdb0-c63845986b46")
+	)
+	(wire
+		(pts
+			(xy 194.31 77.47) (xy 201.93 77.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "11aeafe5-12f6-43a6-b6b6-bc34723ecb17")
+	)
+	(wire
+		(pts
+			(xy 130.81 110.49) (xy 123.19 110.49)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "121ddc87-480b-41d7-b43b-3b4c22c22e16")
+	)
+	(wire
+		(pts
+			(xy 288.29 81.28) (xy 288.29 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "19d7688d-456c-41f0-82bf-09e754a2e6e1")
+	)
+	(wire
+		(pts
+			(xy 87.63 82.55) (xy 82.55 82.55)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1aaa2fd4-c710-4136-b622-136faa245a95")
+	)
+	(wire
+		(pts
+			(xy 285.75 229.87) (xy 285.75 237.49)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1b78aeb4-fe8d-4aee-8cce-1744d3e28e8d")
+	)
+	(wire
+		(pts
+			(xy 194.31 113.03) (xy 201.93 113.03)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1d3718e3-6804-47ab-952e-ed8bb6a95151")
+	)
+	(wire
+		(pts
+			(xy 163.83 64.77) (xy 163.83 59.69)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1d3ab422-31d1-49ec-b551-a5106d57af8f")
+	)
+	(wire
+		(pts
+			(xy 293.37 76.2) (xy 313.69 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "20f4cfb2-8746-4dd2-92f7-dcb1daf96234")
+	)
+	(wire
+		(pts
+			(xy 270.51 99.06) (xy 262.89 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "23702eb4-0c43-4bb3-8fb4-93c7050167ca")
+	)
+	(wire
+		(pts
+			(xy 130.81 104.14) (xy 123.19 104.14)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "24959c2c-166d-49df-9c85-91448b520ba6")
+	)
+	(wire
+		(pts
+			(xy 288.29 163.83) (xy 288.29 161.29)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "24d6b765-2985-41e0-a8aa-e1f53c86a2df")
+	)
+	(wire
+		(pts
+			(xy 293.37 76.2) (xy 293.37 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "250f8417-7e2c-4f10-b743-b5cd741a48dc")
+	)
+	(wire
+		(pts
+			(xy 283.21 194.31) (xy 283.21 199.39)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2607fec4-9abd-4c22-9b59-4b0987cbf171")
+	)
+	(wire
+		(pts
+			(xy 151.13 184.15) (xy 151.13 189.23)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "267c8078-a5ad-4939-96f6-e87c1ac10d8f")
+	)
+	(wire
+		(pts
+			(xy 44.45 185.42) (xy 57.15 185.42)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "26c8c2e7-3d05-4973-baf8-8ff0cc2fb946")
+	)
+	(wire
+		(pts
+			(xy 184.15 212.09) (xy 191.77 212.09)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "293184db-5626-4317-ab1f-645e2e88ba15")
+	)
+	(wire
+		(pts
+			(xy 44.45 198.12) (xy 57.15 198.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2961768e-8714-4c33-a5ec-026cd84a1211")
+	)
+	(wire
+		(pts
+			(xy 194.31 102.87) (xy 201.93 102.87)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2b70fd88-b172-486d-adf3-a6c5c2a8c43f")
+	)
+	(wire
+		(pts
+			(xy 306.07 199.39) (xy 313.69 199.39)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2d7d87d4-4533-46e3-a2b0-238cc7fe6c7f")
+	)
+	(wire
+		(pts
+			(xy 285.75 111.76) (xy 288.29 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "2f3c358e-e6f5-4033-9267-c5ace3fc7594")
+	)
+	(wire
+		(pts
+			(xy 283.21 111.76) (xy 285.75 111.76)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "30ec4453-98ce-4fb0-80b0-45bbbad8ae0c")
+	)
+	(wire
+		(pts
+			(xy 285.75 134.62) (xy 280.67 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "319c4c42-505c-4ad6-8f5f-576ee4bade2e")
+	)
+	(wire
+		(pts
+			(xy 163.83 59.69) (xy 166.37 59.69)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3233054b-7bed-4858-b563-5158db8aa60c")
+	)
+	(wire
+		(pts
+			(xy 293.37 81.28) (xy 288.29 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "346745c4-65b8-45ec-b043-e3dfa9bb3c67")
+	)
+	(wire
+		(pts
+			(xy 278.13 199.39) (xy 273.05 199.39)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "34ccf5f8-174d-4e53-8dd9-1c58f4935b46")
+	)
+	(wire
+		(pts
+			(xy 265.43 199.39) (xy 257.81 199.39)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "352cda75-6b55-4369-b78f-79975aff269c")
+	)
+	(wire
+		(pts
+			(xy 161.29 64.77) (xy 161.29 59.69)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3875d007-bb7d-4174-aaa7-b650898f81ca")
+	)
+	(wire
+		(pts
+			(xy 285.75 229.87) (xy 288.29 229.87)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "39248525-81de-42ad-ae9a-7c1e866b402b")
+	)
+	(wire
+		(pts
+			(xy 306.07 163.83) (xy 300.99 163.83)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3983f0ab-e16f-42de-a4b8-e83d8f299032")
+	)
+	(wire
+		(pts
+			(xy 161.29 59.69) (xy 158.75 59.69)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3a806bb0-3064-4684-8c59-df27670b79d9")
+	)
+	(wire
+		(pts
+			(xy 194.31 153.67) (xy 201.93 153.67)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3c73a898-93f9-4b04-ae08-6c980548ec5f")
+	)
+	(wire
+		(pts
+			(xy 97.79 82.55) (xy 102.87 82.55)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3da20850-3dca-423e-ae15-d6c946180de6")
+	)
+	(wire
+		(pts
+			(xy 285.75 237.49) (xy 285.75 240.03)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3f175f6a-7432-4666-8fcd-015599df23fa")
+	)
+	(wire
+		(pts
+			(xy 194.31 133.35) (xy 201.93 133.35)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "3f9cf1a9-ac7e-48fc-bb0d-f6ce66c523ac")
+	)
+	(wire
+		(pts
+			(xy 50.8 180.34) (xy 50.8 195.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "40e08721-6912-49ff-827c-36dc86d0e1f6")
+	)
+	(wire
+		(pts
+			(xy 308.61 99.06) (xy 300.99 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "438c7dd5-e02d-46b7-87e0-75636978583b")
+	)
+	(wire
+		(pts
+			(xy 140.97 212.09) (xy 158.75 212.09)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "44bdad8f-2be1-4f72-8832-c59b8ba0644a")
+	)
+	(wire
+		(pts
+			(xy 288.29 194.31) (xy 288.29 199.39)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4570d716-2cfb-4d7c-8eb5-147f4d21519f")
+	)
+	(wire
+		(pts
+			(xy 130.81 156.21) (xy 118.11 156.21)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4721ac47-a27f-4392-9948-e59548cbe90a")
+	)
+	(wire
+		(pts
+			(xy 283.21 229.87) (xy 285.75 229.87)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4a8ea1c8-e68f-46fe-9532-0e6ec80849a5")
+	)
+	(wire
+		(pts
+			(xy 102.87 173.99) (xy 110.49 173.99)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4bc7e636-375f-43f9-a7f3-542649e28e62")
+	)
+	(wire
+		(pts
+			(xy 283.21 81.28) (xy 283.21 86.36)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4fc4fce5-2ec3-41be-95c2-fe5523d2d9d7")
+	)
+	(wire
+		(pts
+			(xy 278.13 194.31) (xy 257.81 194.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "516d2fe7-70ee-47e3-a3cf-aaea25eb56cf")
+	)
+	(wire
+		(pts
+			(xy 130.81 72.39) (xy 130.81 67.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5646883b-d42b-4b23-bc51-5a98f04d390c")
+	)
+	(wire
+		(pts
+			(xy 194.31 138.43) (xy 201.93 138.43)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "58ff17d9-1a1c-40fb-bc86-f3ebb69e3d1c")
+	)
+	(wire
+		(pts
+			(xy 82.55 97.79) (xy 82.55 102.87)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5908c780-4cae-4b3f-81e7-202082648d76")
+	)
+	(wire
+		(pts
+			(xy 44.45 146.05) (xy 57.15 146.05)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5afd935e-03f7-4edf-837c-bfc7fc7a8a57")
+	)
+	(wire
+		(pts
+			(xy 176.53 59.69) (xy 176.53 64.77)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5bf661f0-dc32-4513-b949-1e4f253e25b0")
+	)
+	(wire
+		(pts
+			(xy 194.31 92.71) (xy 201.93 92.71)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5ea52e6c-aad9-4016-a9ca-55486f07c971")
+	)
+	(wire
+		(pts
+			(xy 77.47 87.63) (xy 130.81 87.63)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5f81357f-a391-4fc8-8d71-2f17c6a4d501")
+	)
+	(wire
+		(pts
+			(xy 194.31 168.91) (xy 201.93 168.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "615f4356-93ed-4a00-be1b-b7e3e587b230")
+	)
+	(wire
+		(pts
+			(xy 130.81 96.52) (xy 123.19 96.52)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "61a3e7ba-cf95-4ac5-a0fd-0ec366020d66")
+	)
+	(wire
+		(pts
+			(xy 140.97 212.09) (xy 140.97 217.17)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "62091ea9-e5aa-4652-a7d9-4c9813e5d20e")
+	)
+	(wire
+		(pts
+			(xy 148.59 59.69) (xy 151.13 59.69)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "64728ae5-8d16-4276-a1f3-82c57386df6c")
+	)
+	(wire
+		(pts
+			(xy 110.49 186.69) (xy 110.49 189.23)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "64fdc519-df93-44ea-8458-1b480953889e")
+	)
+	(wire
+		(pts
+			(xy 130.81 101.6) (xy 123.19 101.6)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6721997c-192d-49a4-9ef4-299578cc5f7c")
+	)
+	(wire
+		(pts
+			(xy 130.81 99.06) (xy 123.19 99.06)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "69acc9b4-06d3-47ab-b8c3-07f86d184c15")
+	)
+	(wire
+		(pts
+			(xy 306.07 81.28) (xy 313.69 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6aec869b-16ce-4e76-aa98-df88f448c125")
+	)
+	(wire
+		(pts
+			(xy 265.43 81.28) (xy 257.81 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6d3b0a55-0373-482a-9c18-bf9a3a93418c")
+	)
+	(wire
+		(pts
+			(xy 280.67 119.38) (xy 285.75 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6d5445c6-ea27-49b3-bcad-323c8e4c2224")
+	)
+	(wire
+		(pts
+			(xy 306.07 163.83) (xy 306.07 168.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6e1c8177-27bd-474e-b3d9-7cf9164483a1")
+	)
+	(wire
+		(pts
+			(xy 285.75 132.08) (xy 285.75 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6e29510f-c9f5-4e7c-92ac-590022afc0c0")
+	)
+	(wire
+		(pts
+			(xy 285.75 119.38) (xy 285.75 121.92)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6fb0d90c-6d3a-4d68-82c2-fc6bc1be0139")
+	)
+	(wire
+		(pts
+			(xy 158.75 224.79) (xy 158.75 229.87)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "711ddd06-d4dd-4b05-817a-256c912709f6")
+	)
+	(wire
+		(pts
+			(xy 283.21 199.39) (xy 283.21 204.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "72249aae-389b-46f3-bc41-f1c25309804e")
+	)
+	(wire
+		(pts
+			(xy 270.51 252.73) (xy 262.89 252.73)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "72b43f7a-53ab-4f64-b69e-ed94bcd2997b")
+	)
+	(wire
+		(pts
+			(xy 194.31 118.11) (xy 201.93 118.11)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "74669bb3-5060-4e9a-a6ed-2a7e17c252ce")
+	)
+	(wire
+		(pts
+			(xy 270.51 63.5) (xy 262.89 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "76d98e24-609f-469e-a604-8e1c98110294")
+	)
+	(wire
+		(pts
+			(xy 130.81 130.81) (xy 123.19 130.81)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "792b4ae1-3530-4d98-9c70-464fc6e987e8")
+	)
+	(wire
+		(pts
+			(xy 118.11 77.47) (xy 113.03 77.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7a99bca0-a581-42c0-9519-3086ac8c3466")
+	)
+	(wire
+		(pts
+			(xy 130.81 163.83) (xy 110.49 163.83)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7cac785c-041d-4cc4-a2ed-c9f508b3e9ba")
+	)
+	(wire
+		(pts
+			(xy 270.51 237.49) (xy 262.89 237.49)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "7d9d1d05-b591-4daf-93f0-06592d503beb")
+	)
+	(wire
+		(pts
+			(xy 290.83 45.72) (xy 288.29 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "808b6d9c-0423-463b-a3fc-4f86cd4efd60")
+	)
+	(wire
+		(pts
+			(xy 288.29 45.72) (xy 288.29 43.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "842d15ad-26a7-4ab5-a9d5-b7c097377090")
+	)
+	(wire
+		(pts
+			(xy 158.75 212.09) (xy 158.75 217.17)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "86792a8b-f69b-4815-8cd7-4678f06de4d6")
+	)
+	(wire
+		(pts
+			(xy 130.81 113.03) (xy 123.19 113.03)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "893894b1-8f88-4d60-b22c-166fa9d301ea")
+	)
+	(wire
+		(pts
+			(xy 130.81 153.67) (xy 118.11 153.67)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8b5448b3-51d6-48d9-ac8f-a6788d001149")
+	)
+	(wire
+		(pts
+			(xy 194.31 107.95) (xy 201.93 107.95)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "8c348d01-1810-44be-ab2f-6b2ebe53164b")
+	)
+	(wire
+		(pts
+			(xy 148.59 64.77) (xy 148.59 59.69)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9115f84f-e481-4266-828f-cbb644e11651")
+	)
+	(wire
+		(pts
+			(xy 102.87 97.79) (xy 102.87 102.87)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "95e63218-5ec9-43b3-9447-be0956a963ee")
+	)
+	(wire
+		(pts
+			(xy 298.45 81.28) (xy 293.37 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "96a1c537-4e04-4132-8a0d-988d6c958047")
+	)
+	(wire
+		(pts
+			(xy 44.45 151.13) (xy 57.15 151.13)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "96d9e31d-1bfb-4027-8d80-bc72e0e82e00")
+	)
+	(wire
+		(pts
+			(xy 110.49 173.99) (xy 110.49 168.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "97b75f74-39bf-476f-9d17-c56aa530c4cd")
+	)
+	(wire
+		(pts
+			(xy 44.45 143.51) (xy 57.15 143.51)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9ba04f55-5606-46d8-a7b5-7822fd65475e")
+	)
+	(wire
+		(pts
+			(xy 44.45 133.35) (xy 57.15 133.35)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a106bd47-da3a-42d5-8946-4bd25d7b565f")
+	)
+	(wire
+		(pts
+			(xy 278.13 76.2) (xy 257.81 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a248c5cb-64d4-457b-900d-99830879867a")
+	)
+	(wire
+		(pts
+			(xy 44.45 140.97) (xy 57.15 140.97)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a2e5c3e5-85c5-4618-bb6a-6b8037f62921")
+	)
+	(wire
+		(pts
+			(xy 283.21 76.2) (xy 283.21 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a2f79795-3760-4fd1-9585-2710e349f373")
+	)
+	(wire
+		(pts
+			(xy 288.29 163.83) (xy 283.21 163.83)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a33e7c6f-6680-4c46-952b-1f593c66124c")
+	)
+	(wire
+		(pts
+			(xy 283.21 199.39) (xy 278.13 199.39)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a8741e5c-a59c-4dca-ba78-de2fa731fdc0")
+	)
+	(wire
+		(pts
+			(xy 173.99 184.15) (xy 173.99 189.23)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "a88c5fbe-8b3f-4f3e-9ad4-1a2aefc9c29e")
+	)
+	(wire
+		(pts
+			(xy 194.31 72.39) (xy 201.93 72.39)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "aafc0bd3-712b-4f84-a5c0-f46a2a205099")
+	)
+	(wire
+		(pts
+			(xy 184.15 212.09) (xy 184.15 217.17)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ac4bbb1f-f8a0-4cb5-a394-36af2c41d9d2")
+	)
+	(wire
+		(pts
+			(xy 194.31 128.27) (xy 201.93 128.27)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ace6f22f-dd02-468a-b214-af8408e603ad")
+	)
+	(wire
+		(pts
+			(xy 102.87 90.17) (xy 102.87 82.55)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ad20b818-de23-441e-8144-a5cf08a731af")
+	)
+	(wire
+		(pts
+			(xy 194.31 82.55) (xy 201.93 82.55)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ae346b92-2251-4f0c-aaad-6ac806b697f5")
+	)
+	(wire
+		(pts
+			(xy 130.81 82.55) (xy 102.87 82.55)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ae841be4-c2fb-43ff-aceb-40e1ffdeb918")
+	)
+	(wire
+		(pts
+			(xy 77.47 82.55) (xy 77.47 87.63)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "afe43a22-9aaf-40a9-bd2d-7da3d6f2c9af")
+	)
+	(wire
+		(pts
+			(xy 293.37 199.39) (xy 293.37 194.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b1349319-e64d-41a1-8cfd-40b060379480")
+	)
+	(wire
+		(pts
+			(xy 308.61 217.17) (xy 300.99 217.17)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b21b317d-da68-49df-8f0f-bedaf4df670f")
+	)
+	(wire
+		(pts
+			(xy 184.15 224.79) (xy 184.15 229.87)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "b51a8476-f5c8-484b-b4ee-9bb9639c157a")
+	)
+	(wire
+		(pts
+			(xy 270.51 134.62) (xy 262.89 134.62)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bc2515c0-3c02-4423-bb9a-c75e2425a28c")
+	)
+	(wire
+		(pts
+			(xy 158.75 184.15) (xy 158.75 189.23)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "bdc0799d-4a8f-4901-b9f9-eb5672b4dd48")
+	)
+	(wire
+		(pts
+			(xy 278.13 81.28) (xy 278.13 76.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c05ef899-d300-4c3b-ab25-ec5e291104c5")
+	)
+	(wire
+		(pts
+			(xy 285.75 134.62) (xy 285.75 139.7)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c350b0f4-aa03-4329-a32e-a5fc3d480164")
+	)
+	(wire
+		(pts
+			(xy 50.8 195.58) (xy 50.8 203.2)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c4eb11d9-7abf-4650-a96f-b62ff252702c")
+	)
+	(wire
+		(pts
+			(xy 44.45 195.58) (xy 50.8 195.58)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c528183b-8f44-43db-a968-43305e745b76")
+	)
+	(wire
+		(pts
+			(xy 298.45 45.72) (xy 303.53 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c5527eb7-5b61-43cd-8493-d3b4a7d847aa")
+	)
+	(wire
+		(pts
+			(xy 288.29 45.72) (xy 283.21 45.72)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c72e4e4c-b7bc-49ec-9846-59dcb14f22dc")
+	)
+	(wire
+		(pts
+			(xy 283.21 163.83) (xy 283.21 168.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c7e46eb5-dc99-403e-8dc8-cc22f5862db7")
+	)
+	(wire
+		(pts
+			(xy 194.31 163.83) (xy 201.93 163.83)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c81a70fc-dff2-4ff2-a0b3-6b980040b348")
+	)
+	(wire
+		(pts
+			(xy 270.51 181.61) (xy 262.89 181.61)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c8943679-a6da-4f82-bd1a-30336c8d22fe")
+	)
+	(wire
+		(pts
+			(xy 44.45 182.88) (xy 57.15 182.88)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c8bda752-bcb7-4dde-b847-7efdf078f71a")
+	)
+	(wire
+		(pts
+			(xy 44.45 148.59) (xy 57.15 148.59)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ca823e7e-5b6a-4b19-9cec-9c2fa9cd9700")
+	)
+	(wire
+		(pts
+			(xy 110.49 163.83) (xy 110.49 168.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cc6177e8-e9db-4b4e-b5d2-5677f54a7605")
+	)
+	(wire
+		(pts
+			(xy 82.55 82.55) (xy 77.47 82.55)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cd163294-44ac-4540-b5f3-282e96d27e0b")
+	)
+	(wire
+		(pts
+			(xy 293.37 163.83) (xy 288.29 163.83)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ce9ca97a-7939-4959-88c5-ff104f86a550")
+	)
+	(wire
+		(pts
+			(xy 44.45 193.04) (xy 57.15 193.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "cf038b75-131d-4e5c-93b4-d32059f47bb2")
+	)
+	(wire
+		(pts
+			(xy 288.29 199.39) (xy 288.29 204.47)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d027dd71-f69d-454d-a3c3-6167da8fbc40")
+	)
+	(wire
+		(pts
+			(xy 194.31 87.63) (xy 201.93 87.63)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d0df423c-9fd7-4e5d-8b42-9b77fa7f0c66")
+	)
+	(wire
+		(pts
+			(xy 133.35 212.09) (xy 140.97 212.09)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d163dc6f-94bb-4169-ba8c-ca2c53a7bbf6")
+	)
+	(wire
+		(pts
+			(xy 130.81 140.97) (xy 123.19 140.97)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d17e4bd1-76ea-4fa8-9824-d1d06ac71f05")
+	)
+	(wire
+		(pts
+			(xy 270.51 217.17) (xy 262.89 217.17)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d23177ed-ce4b-4b8b-8c65-82fc000d775d")
+	)
+	(wire
+		(pts
+			(xy 158.75 212.09) (xy 184.15 212.09)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d2431a0e-619a-4bd4-835c-01c1ab8901ce")
+	)
+	(wire
+		(pts
+			(xy 288.29 76.2) (xy 288.29 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d2dba22f-fb8b-46b4-9902-31118e62ad4d")
+	)
+	(wire
+		(pts
+			(xy 130.81 123.19) (xy 123.19 123.19)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d6655818-8c07-4d8b-bcfe-3e2b4adde540")
+	)
+	(wire
+		(pts
+			(xy 285.75 252.73) (xy 280.67 252.73)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d716fcdc-6ec7-4b61-a3d0-518d3ec348ac")
+	)
+	(wire
+		(pts
+			(xy 44.45 190.5) (xy 57.15 190.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d7d67be9-5796-4f3d-8ece-24c773de9c75")
+	)
+	(wire
+		(pts
+			(xy 44.45 180.34) (xy 50.8 180.34)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d926b663-d5de-4383-af5b-1e45204cc205")
+	)
+	(wire
+		(pts
+			(xy 278.13 199.39) (xy 278.13 194.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d9e6b5a4-5cfc-4f42-b5ec-1fafed7efb36")
+	)
+	(wire
+		(pts
+			(xy 49.53 163.83) (xy 57.15 163.83)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "daba2b50-25db-4515-b056-82b971f68d22")
+	)
+	(wire
+		(pts
+			(xy 293.37 194.31) (xy 313.69 194.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dce9249a-b0aa-43ee-84d1-dd2d574d4d5a")
+	)
+	(wire
+		(pts
+			(xy 82.55 82.55) (xy 82.55 90.17)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "dd39631b-85a3-48c5-b453-b9f4b64e04e9")
+	)
+	(wire
+		(pts
+			(xy 283.21 81.28) (xy 278.13 81.28)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e0196854-f2f6-4def-ad98-a26327f8e0c8")
+	)
+	(wire
+		(pts
+			(xy 194.31 143.51) (xy 201.93 143.51)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e04d1536-1ed3-4e63-a634-04448de03174")
+	)
+	(wire
+		(pts
+			(xy 288.29 45.72) (xy 288.29 50.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e0802bc4-4e2d-49da-a2f4-ef7dc86fbb38")
+	)
+	(wire
+		(pts
+			(xy 130.81 151.13) (xy 118.11 151.13)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e23d9f67-6a53-4172-b999-fc4aee4d06b2")
+	)
+	(wire
+		(pts
+			(xy 285.75 237.49) (xy 280.67 237.49)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e65405b8-5396-4bc6-a60c-199d01c27230")
+	)
+	(wire
+		(pts
+			(xy 285.75 111.76) (xy 285.75 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e69f12d3-12a8-4df8-87a0-9ba4d8c83efe")
+	)
+	(wire
+		(pts
+			(xy 140.97 224.79) (xy 140.97 229.87)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e94af525-cd2e-4644-8b58-0d4c8b1e296c")
+	)
+	(wire
+		(pts
+			(xy 166.37 184.15) (xy 166.37 189.23)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e980dad4-db48-4da9-a20a-4385b9886251")
+	)
+	(wire
+		(pts
+			(xy 270.51 119.38) (xy 262.89 119.38)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ead4ad12-9e05-462e-8625-1683f2f4c9da")
+	)
+	(wire
+		(pts
+			(xy 288.29 163.83) (xy 288.29 168.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "eb3be9ea-1917-4bf7-bb0e-fca28d0387bd")
+	)
+	(wire
+		(pts
+			(xy 194.31 173.99) (xy 201.93 173.99)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ebade14b-8144-40e9-8925-cb8cf426b36b")
+	)
+	(wire
+		(pts
+			(xy 303.53 45.72) (xy 303.53 50.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ed885bdd-7ecf-48cd-a63f-56131e1ff076")
+	)
+	(wire
+		(pts
+			(xy 285.75 250.19) (xy 285.75 252.73)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "eeed765d-1c21-4c24-b56a-5473b6b32757")
+	)
+	(wire
+		(pts
+			(xy 298.45 199.39) (xy 293.37 199.39)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f46fafbf-bcea-4eb1-ad3d-1bb07dd16866")
+	)
+	(wire
+		(pts
+			(xy 44.45 135.89) (xy 57.15 135.89)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f5791d19-43e7-4f7a-8d60-ffe6f948ba31")
+	)
+	(wire
+		(pts
+			(xy 130.81 143.51) (xy 123.19 143.51)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f5ea5cd3-0513-460e-9d25-b8cbd7a5459e")
+	)
+	(wire
+		(pts
+			(xy 293.37 199.39) (xy 288.29 199.39)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f60f59c7-0569-4002-b6b7-d74ded75af6c")
+	)
+	(wire
+		(pts
+			(xy 194.31 158.75) (xy 201.93 158.75)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f9c08914-e6cd-4ce5-8782-983f134d04b0")
+	)
+	(wire
+		(pts
+			(xy 44.45 138.43) (xy 57.15 138.43)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fb9c938a-56e5-4e55-9f87-83e04ac0272d")
+	)
+	(wire
+		(pts
+			(xy 44.45 187.96) (xy 57.15 187.96)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fd4406a7-88f9-4900-abc8-e25e7a5cc047")
+	)
+	(wire
+		(pts
+			(xy 285.75 252.73) (xy 285.75 257.81)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fdaaaee5-b9b0-4772-83b9-c839fa216bf7")
+	)
+	(wire
+		(pts
+			(xy 110.49 168.91) (xy 130.81 168.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "fe249ab5-23c8-430f-9c46-89c2bb45e891")
+	)
+	(wire
+		(pts
+			(xy 176.53 59.69) (xy 184.15 59.69)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ff101a73-f9ad-4f0e-98b3-1cd529135abf")
+	)
+	(wire
+		(pts
+			(xy 194.31 97.79) (xy 201.93 97.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "ff77134a-d7f7-4180-ad11-7a352fcb3ea0")
+	)
+	(text "CLK has to be set to GND (int. clock)."
+		(exclude_from_sim no)
+		(at 40.64 121.92 0)
+		(effects
+			(font
+				(size 2.54 2.159)
+			)
+			(justify left top)
+		)
+		(uuid "6743c326-7b09-4180-9f8e-650d06ea3db2")
+	)
+	(text "Released under the Creative Commons Attribution Share-Alike\nLicense. http://creativecommons.org/licenses/by-sa/4.0/\nDesigned by Stephan Watterott (Watterott electronic)\nBased on the Trinamic TMC5160-BOB"
+		(exclude_from_sim no)
+		(at 307.34 256.54 0)
+		(effects
+			(font
+				(size 1.27 1.0795)
+			)
+			(justify left top)
+		)
+		(uuid "eea185e6-b30b-489f-87b5-61c22fe771f8")
+	)
+	(label "CB1"
+		(at 257.81 199.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify right bottom)
+		)
+		(uuid "04bb1184-1e0c-44cf-8db3-2a949ba11736")
+	)
+	(label "DIR"
+		(at 57.15 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "09e36f1c-aa4d-41b7-9a05-de8eebf13833")
+	)
+	(label "+VM"
+		(at 288.29 161.29 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a14c5a4-a913-4fc3-90f7-62b5ff651052")
+	)
+	(label "BMB1"
+		(at 257.81 194.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify right bottom)
+		)
+		(uuid "0eec535d-eb03-4091-8406-b159669aa84a")
+	)
+	(label "SB"
+		(at 288.29 229.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "106fd04a-9e36-468b-abef-304961b31217")
+	)
+	(label "CLK"
+		(at 57.15 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "1248dad6-acde-4b1d-b2fd-e1eb697be1cf")
+	)
+	(label "BMB2"
+		(at 201.93 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "184f214c-68b4-4fcb-aa08-f7f542fea6c3")
+	)
+	(label "SRBH"
+		(at 201.93 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d409e47-8c3b-486b-80de-8f74b67178a4")
+	)
+	(label "LA2"
+		(at 201.93 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e9d20dc-15cf-4ba7-8f76-ee53aa24ba5a")
+	)
+	(label "CB2"
+		(at 201.93 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "2059c3b2-d1ca-4009-bab3-2be77385915d")
+	)
+	(label "EN"
+		(at 123.19 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify right bottom)
+		)
+		(uuid "2168befa-d419-43c3-9837-260c6a5f4a6f")
+	)
+	(label "VCC"
+		(at 104.14 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "250495ff-8b31-4425-997a-f0c5e335fde1")
+	)
+	(label "CSN"
+		(at 57.15 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "25cd3009-88c3-4209-a672-bbadd05e8f2f")
+	)
+	(label "LA2"
+		(at 308.61 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "299e9d75-fb04-4647-a634-485665fc9381")
+	)
+	(label "HA1"
+		(at 201.93 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "29ebbf96-3aca-4193-8e98-a10189e15f1a")
+	)
+	(label "SDI"
+		(at 57.15 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "2bbe0449-f560-4d05-9834-5e53df7bd43f")
+	)
+	(label "STEP"
+		(at 123.19 140.97 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify right bottom)
+		)
+		(uuid "2dee29b5-4841-4537-b373-7adc57663a07")
+	)
+	(label "CA1"
+		(at 257.81 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify right bottom)
+		)
+		(uuid "31abbc1a-3896-4d03-92d8-ea02cfe76093")
+	)
+	(label "SRAH"
+		(at 201.93 168.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "3496e8b2-cbac-43cb-8066-0ef4124a81d9")
+	)
+	(label "HB1"
+		(at 201.93 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "34abe469-72a9-4227-a534-7f75dd3526a7")
+	)
+	(label "DIAG1"
+		(at 123.19 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "3b1762e9-6055-4458-8e7d-9c0f11dff9b9")
+	)
+	(label "SRBH"
+		(at 262.89 237.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify right bottom)
+		)
+		(uuid "3bbf0873-a30b-47c0-b4f9-c6bb04cfbc55")
+	)
+	(label "LB1"
+		(at 262.89 217.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify right bottom)
+		)
+		(uuid "3d05493c-65bd-4e41-b897-78f8c36346c2")
+	)
+	(label "HA2"
+		(at 308.61 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e77326f-1e7f-4b8b-aa5f-0d0dce7a6786")
+	)
+	(label "SRAH"
+		(at 262.89 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify right bottom)
+		)
+		(uuid "50e3283b-58bc-4553-a200-f74e0efcfeb4")
+	)
+	(label "HB2"
+		(at 308.61 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "50fa6a56-a062-46d6-a825-517ade32ab67")
+	)
+	(label "BMA2"
+		(at 313.69 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "56f080e5-842f-4ff9-9072-c82ebf6e16ed")
+	)
+	(label "SRBL"
+		(at 201.93 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "57384434-3abb-40e8-be70-ff1f49243242")
+	)
+	(label "DIAG1"
+		(at 57.15 166.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "5811e087-2132-49c9-9fe0-4ad91f4f195d")
+	)
+	(label "LA1"
+		(at 262.89 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify right bottom)
+		)
+		(uuid "5bb3234b-56e3-4c6c-9461-afad71f8a2f5")
+	)
+	(label "SRAL"
+		(at 201.93 173.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "5be655c8-2747-46a3-a22d-719ea5dd8f31")
+	)
+	(label "DIAG0"
+		(at 57.15 163.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bf46e54-10e5-4259-aa90-80439c54f199")
+	)
+	(label "STEP"
+		(at 57.15 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c1b4d82-e0e5-4405-8d69-b4ba82deedf6")
+	)
+	(label "SCK"
+		(at 57.15 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "617fa0b7-ae49-4023-bf95-4761e0793186")
+	)
+	(label "SDI"
+		(at 123.19 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify right bottom)
+		)
+		(uuid "65d0551b-3545-4fa7-bdac-c67fbe699998")
+	)
+	(label "SCK"
+		(at 123.19 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a986dfa-c038-4cec-957e-6d67c794c802")
+	)
+	(label "+VM"
+		(at 133.35 212.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify right bottom)
+		)
+		(uuid "762ca9e7-b4a3-44dd-b478-bc5542b3e37d")
+	)
+	(label "BMA2"
+		(at 57.15 193.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a6e3819-f7cd-41eb-98ad-abc01410ddbe")
+	)
+	(label "BMB1"
+		(at 201.93 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "7abf4122-3198-4d2d-8308-4c4d479e9bde")
+	)
+	(label "CB2"
+		(at 313.69 199.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "7cb86877-92e8-4ea7-a8d0-b98bc2b78cd1")
+	)
+	(label "HA2"
+		(at 201.93 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "7db06c79-02f7-4d8c-9b39-b6fd517e1064")
+	)
+	(label "EN"
+		(at 57.15 151.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "7efdc07c-8b45-4291-a368-8964a8ac751a")
+	)
+	(label "CLK"
+		(at 123.19 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify right bottom)
+		)
+		(uuid "86a4ad32-147f-42ea-b215-c1805c1029e2")
+	)
+	(label "BMB2"
+		(at 57.15 185.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c34122a-2940-46bb-883c-2876cadc254d")
+	)
+	(label "VCC_IO"
+		(at 57.15 182.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e5fbd47-2c49-43ee-9917-71db4fa28be3")
+	)
+	(label "+VM"
+		(at 191.77 212.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f96986b-377b-4042-8279-96b52c8f0673")
+	)
+	(label "SDO"
+		(at 57.15 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "9406073d-79b6-43c2-a186-964779dc1edc")
+	)
+	(label "LA1"
+		(at 201.93 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "9457a669-07f1-4b7d-8fd3-80608b69dd31")
+	)
+	(label "HB1"
+		(at 262.89 181.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify right bottom)
+		)
+		(uuid "97247bc4-3c2e-43a8-a758-c70ecd27a981")
+	)
+	(label "BMA1"
+		(at 201.93 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d07ffcf-859e-4ea1-ad19-bd3609f16113")
+	)
+	(label "BMA2"
+		(at 201.93 153.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "a78a92f3-2222-4e29-a6ea-1544104cc4fc")
+	)
+	(label "CB1"
+		(at 201.93 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac3652cd-520f-4d5e-ad0a-1fdb5cf8ec1b")
+	)
+	(label "CA1"
+		(at 201.93 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "b403c219-2408-40e7-aea1-a89e0c26bd3f")
+	)
+	(label "HA1"
+		(at 262.89 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify right bottom)
+		)
+		(uuid "b48cf9e2-4866-44e2-9e67-011b959d9950")
+	)
+	(label "5V_OUT"
+		(at 116.84 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9307312-7044-4e21-b08c-50d274f445b4")
+	)
+	(label "+VM"
+		(at 184.15 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "bedd0844-5cc6-4c2b-acef-df31ccb46335")
+	)
+	(label "DIAG0"
+		(at 123.19 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right bottom)
+		)
+		(uuid "c1f3ccb7-46ab-4f10-a039-0f0a2d3bf053")
+	)
+	(label "CSN"
+		(at 123.19 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify right bottom)
+		)
+		(uuid "c32e6256-8b48-401f-8fc3-0e65d780168e")
+	)
+	(label "LB2"
+		(at 201.93 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "c94c1c40-3cc7-465d-b130-292600eb7036")
+	)
+	(label "CA2"
+		(at 201.93 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca30005d-d7f1-4824-bdd9-bf433b9a7e59")
+	)
+	(label "LB2"
+		(at 308.61 217.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca42b576-97e9-4522-9eeb-dbd79790f8c6")
+	)
+	(label "BMB2"
+		(at 313.69 194.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccc2a8cf-35f0-41fd-aa1a-bc15bdfd50e6")
+	)
+	(label "CA2"
+		(at 313.69 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce9369c4-1422-423e-b152-d0d9ef65ad80")
+	)
+	(label "+VM"
+		(at 130.81 67.31 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "d76f84e2-2517-4837-bb24-0d531943ec14")
+	)
+	(label "SDO"
+		(at 123.19 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify right bottom)
+		)
+		(uuid "e35c540f-c27c-4566-96af-6503fc6f4a07")
+	)
+	(label "DIR"
+		(at 123.19 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify right bottom)
+		)
+		(uuid "e64c19d8-27cd-45f2-9c79-c31d2c0a6242")
+	)
+	(label "HB2"
+		(at 201.93 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7be17da-815c-4c7b-a068-6e070907ddd4")
+	)
+	(label "BMA1"
+		(at 57.15 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7f694ae-ff1d-46fa-847a-2134305b1e3a")
+	)
+	(label "BMA1"
+		(at 257.81 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify right bottom)
+		)
+		(uuid "ecf5bfb7-c732-4f6c-a885-03cb87c80e96")
+	)
+	(label "+VM"
+		(at 57.15 198.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee82aaa0-4f57-4f41-84d0-39fa45ea97ee")
+	)
+	(label "SRBL"
+		(at 262.89 252.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify right bottom)
+		)
+		(uuid "f14f269f-b5fc-4d4f-891e-161ca0a89f9a")
+	)
+	(label "LB1"
+		(at 201.93 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1ed5c10-5d82-4ef5-82bb-3f53bc962b77")
+	)
+	(label "VCC_IO"
+		(at 102.87 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify right bottom)
+		)
+		(uuid "f822fc35-344e-4831-85f8-be6d659b693a")
+	)
+	(label "SA"
+		(at 288.29 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "f908c754-8e8a-4709-9f4f-1f69aaf8bad5")
+	)
+	(label "BMB1"
+		(at 57.15 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe0491be-cbb5-421d-bf73-f0d4d17787b4")
+	)
+	(label "SRAL"
+		(at 262.89 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe52d869-9dfe-4d41-8b51-3d899effcb80")
+	)
+	(label "+VM"
+		(at 288.29 43.18 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.9957 0.9957)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff7a0c35-3747-4a74-855a-4aa021167127")
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:C-EUC0402")
+		(at 303.53 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "045d02c8-fe8e-4278-b58a-2a67cd9a8bbc")
+		(property "Reference" "C12"
+			(at 303.911 82.804 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0402"
+			(at 298.831 82.804 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:C0402"
+			(at 303.53 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 303.53 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53ef1f0e-8098-45d4-9178-2e3e37bd4897")
+		)
+		(pin "2"
+			(uuid "efbac106-5cc9-4e4c-822d-53b1cc071b6f")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:GND")
+		(at 110.49 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06857452-0ca8-400a-a517-a724fcd59d3d")
+		(property "Reference" "#GND5"
+			(at 110.49 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 74.93 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b95d42e-6eba-4b7b-ae9c-b4d24549bc5e")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "#GND5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:GND")
+		(at 140.97 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08bbe438-1a1e-4433-86b7-75bead5ce742")
+		(property "Reference" "#GND14"
+			(at 140.97 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 234.95 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dae5ed45-a8df-4f2f-957b-3a14e572ed7d")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "#GND14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:C-EUC0402")
+		(at 82.55 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c69e352-d582-4d2f-b3bc-8001c78f5757")
+		(property "Reference" "C4"
+			(at 81.026 95.631 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0402"
+			(at 81.026 90.551 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:C0402"
+			(at 82.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e836cf3-192f-44c1-9862-0342332e5dbc")
+		)
+		(pin "2"
+			(uuid "cc4f005f-7d18-49a8-bde3-a57047653317")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:GND")
+		(at 158.75 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11a759e2-cce9-4c4a-8c01-a9f36bca86bb")
+		(property "Reference" "#GND2"
+			(at 158.75 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 194.31 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "709514bd-30d3-483f-9d71-3c3cf8516142")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "#GND2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:PINHD-1X08_2.54-S")
+		(at 41.91 143.51 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12a9ca0e-d6a4-48fe-927f-23ddab4153e0")
+		(property "Reference" "P1"
+			(at 48.26 130.175 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PINHD-1X08_2.54-S"
+			(at 48.26 156.21 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:1X08-S"
+			(at 41.91 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ebe9cb2e-d33b-46cb-90c5-4a24b28eb20b")
+		)
+		(pin "2"
+			(uuid "7d93b507-fcc4-4430-84d8-fd65aea08017")
+		)
+		(pin "3"
+			(uuid "97964065-b839-4259-a3c7-6acf8676ba43")
+		)
+		(pin "4"
+			(uuid "90f1c9b1-9f86-424a-8e29-3dc759abaeea")
+		)
+		(pin "5"
+			(uuid "766074e6-53d1-45bf-9796-c4ab6991f709")
+		)
+		(pin "6"
+			(uuid "879f92cc-dbe5-48ae-8127-df9b2b9bfccb")
+		)
+		(pin "7"
+			(uuid "85e4e788-3bd0-42cd-a7ec-87ce07694281")
+		)
+		(pin "8"
+			(uuid "cc408dc9-e6fa-49b4-a4a0-87ad1e3a8f89")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:R-EU_R1206")
+		(at 285.75 245.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13ca9ca5-f865-487a-b80e-e8d718110204")
+		(property "Reference" "R12"
+			(at 284.2514 248.92 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "R-EU_R1206"
+			(at 289.052 248.92 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:R1206"
+			(at 285.75 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 285.75 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34be4dfe-dbdf-4c70-aee0-7098b67181e5")
+		)
+		(pin "2"
+			(uuid "4af16bc5-7f68-40e8-bdf7-3b3a92a3f7a1")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:R-EU_R0402")
+		(at 92.71 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20547367-618f-4e60-82a5-9877b99da8c5")
+		(property "Reference" "R17"
+			(at 88.9 81.0514 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "R-EU_R0402"
+			(at 88.9 85.852 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:R0402"
+			(at 92.71 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3349915-0e96-49b5-88f0-9c5713bcb0c8")
+		)
+		(pin "2"
+			(uuid "b8b694fa-f59c-438c-b818-2a34e5d03be9")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:FDMC8030")
+		(at 285.75 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "22e9c72e-c4b6-4d76-a92c-952deefab665")
+		(property "Reference" "IC4"
+			(at 280.416 173.482 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "FDMC8030"
+			(at 289.814 191.008 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:8-POWERWDFN"
+			(at 285.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 285.75 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "268faf76-ddff-469f-a2f4-de39ddbb58b8")
+		)
+		(pin "P$4"
+			(uuid "5ea66596-6a19-4f29-ac28-93db10242ac4")
+		)
+		(pin "P$5"
+			(uuid "8324cbf6-5d08-4744-9d87-0bb3c17ab187")
+		)
+		(pin "P$8"
+			(uuid "debcc4fa-09ad-4d09-857a-00bde499e25d")
+		)
+		(pin "P$D1"
+			(uuid "d35b3c7c-ae76-4303-aed0-99c92cae82eb")
+		)
+		(pin "P$D2"
+			(uuid "fc4a0f65-c538-43c9-a605-70a2669ff06f")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "IC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:FDMC8030")
+		(at 285.75 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2769746d-d3b8-494e-96c7-84f55148a56f")
+		(property "Reference" "IC3"
+			(at 280.416 90.932 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "FDMC8030"
+			(at 289.814 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:8-POWERWDFN"
+			(at 285.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 285.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "8c184a74-0f6c-4d73-b577-28e92af16d84")
+		)
+		(pin "P$4"
+			(uuid "6c38a562-2ffd-4ed4-b20e-5c413ded653a")
+		)
+		(pin "P$5"
+			(uuid "62695396-a4c7-4785-aa41-646efb4c732c")
+		)
+		(pin "P$8"
+			(uuid "e1930e10-c058-439d-b5e8-b6404cb946ce")
+		)
+		(pin "P$D1"
+			(uuid "6615c2b6-7419-47e9-b3cb-2cc9f8547261")
+		)
+		(pin "P$D2"
+			(uuid "5dc9de7d-f9f3-4edb-808e-430585b7b848")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "IC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:C-EUC0402")
+		(at 303.53 199.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f6226a2-7c3b-4b29-b548-4a255f965705")
+		(property "Reference" "C14"
+			(at 303.911 200.914 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0402"
+			(at 298.831 200.914 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:C0402"
+			(at 303.53 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 303.53 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2eb31a83-328a-4d7c-b08b-f6250a7d8b21")
+		)
+		(pin "2"
+			(uuid "5a8624dc-5845-430b-a43b-75fdabc37eba")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:PASSER-04")
+		(at 330.2 271.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2fb58d92-8984-4a7f-9fd2-8ad9865ca53b")
+		(property "Reference" "X4"
+			(at 330.2 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PASSER-04"
+			(at 330.2 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:PASSER_04MM"
+			(at 330.2 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 330.2 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "X4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:LOGO_OSHW-2")
+		(at 337.82 271.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "389f3c0a-5590-4302-825b-69b41c985867")
+		(property "Reference" "LOGO2"
+			(at 337.82 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LOGO_OSHW-2"
+			(at 337.82 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:OSHW_2MM"
+			(at 337.82 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 337.82 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "LOGO2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:MA02-1")
+		(at 41.91 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "392c6e0b-c255-4e64-ae25-efb74b563936")
+		(property "Reference" "P3"
+			(at 40.64 160.528 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "MA02-1"
+			(at 40.64 171.45 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:MA02-1"
+			(at 41.91 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bae37ecf-29ee-43b5-82dc-5d0389d2a995")
+		)
+		(pin "2"
+			(uuid "0430b356-6b4a-43e7-970e-183bfa2c13f0")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "P3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:R-EU_R0402")
+		(at 275.59 252.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c10edbb-2c3d-43f0-b512-efa48654d8d0")
+		(property "Reference" "R10"
+			(at 271.78 251.2314 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "R-EU_R0402"
+			(at 271.78 256.032 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:R0402"
+			(at 275.59 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 275.59 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60b3137d-90bf-4596-8af0-fc2841367f2b")
+		)
+		(pin "2"
+			(uuid "e701c5eb-48fd-4ee1-bf6c-9f51203c95bd")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:GND")
+		(at 184.15 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c74e293-405f-465f-af01-9d16205175e0")
+		(property "Reference" "#GND18"
+			(at 184.15 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 234.95 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5db9eca-142e-42a3-a7b6-8231eb3719f6")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "#GND18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:GND")
+		(at 285.75 260.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d331049-5777-487c-a2af-fadb77b697c5")
+		(property "Reference" "#GND21"
+			(at 285.75 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 283.21 262.89 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.75 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 285.75 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f57b0f89-bc90-4955-b241-f99e774f156d")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "#GND21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:C-EUC0201")
+		(at 110.49 184.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46c3ec6c-8913-4af5-8d00-31b9d209c6f1")
+		(property "Reference" "C1"
+			(at 108.966 184.531 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0201"
+			(at 108.966 179.451 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:C0201"
+			(at 110.49 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99945934-d214-4b83-a2d5-9574616eb81a")
+		)
+		(pin "2"
+			(uuid "bf22916c-44d0-4db9-b429-40168b92957a")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:C-EUC0402")
+		(at 168.91 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b9d585b-e0a8-4e80-962c-be3b5303547e")
+		(property "Reference" "C5"
+			(at 168.529 58.166 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0402"
+			(at 173.609 58.166 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:C0402"
+			(at 168.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be614a8e-f288-4c1b-bbdd-150feaf0f5e0")
+		)
+		(pin "2"
+			(uuid "bbdc1a1c-76ed-4675-925d-a8fed869f5fd")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:GND")
+		(at 285.75 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cba5c9c-2f4e-4bb4-bf75-7e766f0f86e6")
+		(property "Reference" "#GND19"
+			(at 285.75 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 283.21 144.78 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 285.75 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 285.75 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07775a3e-72b3-4171-b382-7086a1ec4432")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "#GND19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:PAD-0.5_NC")
+		(at 115.57 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56f4e76b-fb02-472e-b8b4-b78b6c2f5a19")
+		(property "Reference" "CFG5"
+			(at 113.665 151.13 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PAD-0.5_NC"
+			(at 115.57 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:PAD-0.5_NC"
+			(at 115.57 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72cf13c0-e7b3-4176-8f4a-117b5e6514db")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "CFG5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:C-EUC0402")
+		(at 298.45 163.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61eb370d-8ea8-43e0-87fc-a467b203c2fc")
+		(property "Reference" "C16"
+			(at 298.831 165.354 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0402"
+			(at 293.751 165.354 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:C0402"
+			(at 298.45 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 298.45 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 298.45 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "645dd4c5-1250-446c-b0a4-ff7c368211ff")
+		)
+		(pin "2"
+			(uuid "0197062c-99e9-499f-b4cc-9eacebc8a1c1")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:GND")
+		(at 82.55 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "669ce358-b2be-4efd-88f9-98a25dd5a8e0")
+		(property "Reference" "#GND6"
+			(at 82.55 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 107.95 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90cdb3b1-54cc-4d81-b8a0-3057e8c816d5")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "#GND6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:GND")
+		(at 50.8 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "696a0039-c56d-4d3f-ab93-60d06567a200")
+		(property "Reference" "#GND10"
+			(at 50.8 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 208.28 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46be9bf4-ac2e-4a2f-a038-67f2eed480fe")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "#GND10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:C-EUC0402")
+		(at 153.67 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b9282e3-8207-45d7-bba4-3560d245958c")
+		(property "Reference" "C6"
+			(at 153.289 58.166 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0402"
+			(at 158.369 58.166 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:C0402"
+			(at 153.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd2095c0-5492-4e9b-8953-a1f28b370c09")
+		)
+		(pin "2"
+			(uuid "0e620f73-01fa-47e1-be4d-acb468b3bf28")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:C-EUC0805")
+		(at 158.75 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f175e31-f53b-4153-88a5-119c472bde20")
+		(property "Reference" "C9"
+			(at 160.274 219.329 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0805"
+			(at 160.274 224.409 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:C0805"
+			(at 158.75 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bea0153-a7cf-48e8-90a9-523fab42b02e")
+		)
+		(pin "2"
+			(uuid "219f7d67-6478-45ad-83a9-e2dd1e762885")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:FDMC8030")
+		(at 285.75 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7234501d-d258-4c6a-97a7-c6e8834e5d68")
+		(property "Reference" "IC2"
+			(at 280.416 55.372 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "FDMC8030"
+			(at 289.814 72.898 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:8-POWERWDFN"
+			(at 285.75 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 285.75 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "dd372523-d21a-46e8-a252-033ca9484dd0")
+		)
+		(pin "P$4"
+			(uuid "daeb5230-9343-424e-9768-cf6b6e8d6cda")
+		)
+		(pin "P$5"
+			(uuid "4516b454-1ee2-4090-a0a0-44c1cc0fbdcf")
+		)
+		(pin "P$8"
+			(uuid "426cdefb-571b-43cd-8f51-7a9555fd4015")
+		)
+		(pin "P$D1"
+			(uuid "ed84b66f-3e34-4de7-9f08-c45f26bae097")
+		)
+		(pin "P$D2"
+			(uuid "d37fe112-f474-4075-8cff-9924e4d5d6a1")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:C-EUC0402")
+		(at 184.15 222.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7322685f-6162-4277-9808-b9872580808c")
+		(property "Reference" "C7"
+			(at 182.626 222.631 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0402"
+			(at 182.626 217.551 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:C0402"
+			(at 184.15 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e6851c2-2a27-4677-b9e2-9a6b4e7915d7")
+		)
+		(pin "2"
+			(uuid "194c87b6-7d18-4768-85da-e804102cf872")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:GND")
+		(at 303.53 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "836062b1-136d-4e5b-bbcd-de47a52d04f3")
+		(property "Reference" "#GND16"
+			(at 303.53 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 300.99 55.88 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 303.53 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 303.53 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c433ffde-e2f6-48ca-8908-7cc09744efe9")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "#GND16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:PAD-0.5_NC")
+		(at 115.57 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87137ed9-c84b-47f4-a0da-bab03748351a")
+		(property "Reference" "CFG4"
+			(at 113.665 153.67 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PAD-0.5_NC"
+			(at 115.57 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:PAD-0.5_NC"
+			(at 115.57 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da60392e-489a-41fe-9ffa-c707a57bec5f")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "CFG4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:GND")
+		(at 110.49 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8aeefcde-75ae-46df-816b-60e6d2a85b66")
+		(property "Reference" "#GND11"
+			(at 110.49 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 194.31 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b857b44a-c8df-479b-8e32-345b253e85b2")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "#GND11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:C-EUC0402")
+		(at 270.51 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ca853ad-2b84-4178-9692-1f39ddda2f89")
+		(property "Reference" "C11"
+			(at 270.891 82.804 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0402"
+			(at 265.811 82.804 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:C0402"
+			(at 270.51 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 270.51 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2368bdb4-bea2-43a0-bfeb-eaad0fa32c29")
+		)
+		(pin "2"
+			(uuid "c059d0a0-38ba-4d44-8372-7ed5c1ade30e")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:C-EUC0402")
+		(at 270.51 199.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ebf03f9-471c-4b71-abdf-569c80a7b987")
+		(property "Reference" "C13"
+			(at 270.891 200.914 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0402"
+			(at 265.811 200.914 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:C0402"
+			(at 270.51 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 270.51 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2130556-3261-4809-a488-1d12d0fb65e9")
+		)
+		(pin "2"
+			(uuid "78c5300c-105f-46bd-af1f-43c775de6ca9")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:R-EU_R1206")
+		(at 285.75 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "925c38b9-733e-4ea3-874b-c92eafa6f286")
+		(property "Reference" "R11"
+			(at 284.2514 130.81 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "R-EU_R1206"
+			(at 289.052 130.81 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:R1206"
+			(at 285.75 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 285.75 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20f3d908-20c0-4665-bb95-98b760279b7b")
+		)
+		(pin "2"
+			(uuid "a66a66ca-bafb-4760-8e72-06bcd8884b7f")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:LOGO_SPARK-2")
+		(at 349.25 271.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "936f76de-1d1c-4bb1-95c2-511789e4fcf4")
+		(property "Reference" "LOGO1"
+			(at 349.25 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "LOGO_SPARK-2"
+			(at 349.25 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:SPARK_2MM"
+			(at 349.25 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 349.25 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "LOGO1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:GND")
+		(at 102.87 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "955b147c-7a2e-4029-93b3-99b280db51c1")
+		(property "Reference" "#GND7"
+			(at 102.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 107.95 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0fddd89-7382-4e35-81cc-d0cafdaa36bd")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "#GND7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:FDMC8030")
+		(at 285.75 217.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e175f32-3e8d-45fa-b1e8-d34683e0e6e9")
+		(property "Reference" "IC5"
+			(at 280.416 209.042 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "FDMC8030"
+			(at 289.814 226.568 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:8-POWERWDFN"
+			(at 285.75 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 285.75 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 285.75 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "P$1"
+			(uuid "0e43c489-b666-4177-a0c8-908588414028")
+		)
+		(pin "P$4"
+			(uuid "5d1e3709-a327-422b-9e74-ff23aed68545")
+		)
+		(pin "P$5"
+			(uuid "2f8759bc-6a2f-4746-ad7d-afd3f31cd4e7")
+		)
+		(pin "P$8"
+			(uuid "7b2318fa-73a0-4718-bd4a-af9227566cf0")
+		)
+		(pin "P$D1"
+			(uuid "c3a32a55-fdad-4961-bf88-ac5071d10061")
+		)
+		(pin "P$D2"
+			(uuid "6bbc8eb3-d907-4473-a4eb-5b55e277d726")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "IC5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:R-EU_R0402")
+		(at 275.59 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3716c10-d6fe-47d8-943b-d9d90b60c02f")
+		(property "Reference" "R7"
+			(at 271.78 117.8814 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "R-EU_R0402"
+			(at 271.78 122.682 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:R0402"
+			(at 275.59 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 275.59 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39a38060-9128-4469-a483-ccaee31f2a76")
+		)
+		(pin "2"
+			(uuid "7cb23f4a-8faf-49eb-9abc-2efd57c4d53c")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:R-EU_R0402")
+		(at 275.59 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a50e9979-e3b8-43bb-baf2-3dd19e80659a")
+		(property "Reference" "R8"
+			(at 271.78 133.1214 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "R-EU_R0402"
+			(at 271.78 137.922 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:R0402"
+			(at 275.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 275.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ef50ffd-bc22-477c-a379-63267f27ee6a")
+		)
+		(pin "2"
+			(uuid "9bcfcd8b-17a6-40a1-be28-92a46ba6fb5c")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:PASSER-04")
+		(at 311.15 271.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5ac3db6-ddbd-4562-838a-17e749285c4c")
+		(property "Reference" "X1"
+			(at 311.15 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PASSER-04"
+			(at 311.15 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:PASSER_04MM"
+			(at 311.15 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 311.15 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 311.15 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:PINHD-1X08_2.54-S")
+		(at 41.91 190.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b311d383-77b5-4de9-b249-9433262d305f")
+		(property "Reference" "P2"
+			(at 48.26 177.165 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "PINHD-1X08_2.54-S"
+			(at 48.26 203.2 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:1X08-S"
+			(at 41.91 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8215cdc4-d684-4bf2-8213-774caa0074cc")
+		)
+		(pin "2"
+			(uuid "a4f9c838-aaca-4577-a243-bcc5783ef433")
+		)
+		(pin "3"
+			(uuid "1017e065-b4fa-44b2-9997-c18685848933")
+		)
+		(pin "4"
+			(uuid "6f1a5307-523b-425b-82e3-0fec3588f1dc")
+		)
+		(pin "5"
+			(uuid "84b6742d-9967-410e-ab45-00f7dcc64bdb")
+		)
+		(pin "6"
+			(uuid "63521e0d-bc51-4708-b7a8-bb641cdbcd81")
+		)
+		(pin "7"
+			(uuid "572a906e-f14a-4f13-b03b-afce7e3babb8")
+		)
+		(pin "8"
+			(uuid "14e6c8f2-500f-4426-b341-087861e3d18e")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "P2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:TMC5160-WA")
+		(at 130.81 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4bbfef3-072a-4a97-8b8a-6ad783b8ada7")
+		(property "Reference" "IC1"
+			(at 162.56 80.01 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" " TMC5160-WA "
+			(at 162.56 82.55 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:VQFN56(47)_8.0X8.0X0.9MM_0.5P_EP"
+			(at 130.81 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bea47c05-c3dd-4f5b-b67e-83842d005f9f")
+		)
+		(pin "10"
+			(uuid "7a2491fa-4211-4112-b366-e814913e3c2f")
+		)
+		(pin "11"
+			(uuid "1f5ec419-b7e8-47a9-86df-54694513b85b")
+		)
+		(pin "12"
+			(uuid "559f973c-66ae-40e1-8cd5-fc9cd9184cd4")
+		)
+		(pin "13"
+			(uuid "c896e9bd-37f1-4732-89bd-80a9e43b6804")
+		)
+		(pin "14"
+			(uuid "2da29f86-f960-49a0-a4e4-665fe7d20f5b")
+		)
+		(pin "15"
+			(uuid "b2372b7e-7713-4a83-ae41-56875e1d54e3")
+		)
+		(pin "16"
+			(uuid "8e108d98-8abb-48de-9f02-b6e57f645c20")
+		)
+		(pin "17"
+			(uuid "8021bc60-a54d-47d0-a8e6-66de3c50a2bf")
+		)
+		(pin "18"
+			(uuid "f91e328a-9303-4692-9f1d-7d1c345aeb42")
+		)
+		(pin "19"
+			(uuid "ad51a921-baee-43b9-8a62-9c3eda79826e")
+		)
+		(pin "2"
+			(uuid "c6ba854e-d1fa-4562-9310-d8308cd4c957")
+		)
+		(pin "20"
+			(uuid "8a934c18-b645-4f87-900e-e30f3fdeae2c")
+		)
+		(pin "21"
+			(uuid "34c2c7b3-44d0-4e41-904e-ffc38b087f2b")
+		)
+		(pin "22"
+			(uuid "1a0a50dc-b080-4679-8cc3-148430c90b8f")
+		)
+		(pin "23"
+			(uuid "dc830689-fd69-4e7d-9357-df1ccff0493b")
+		)
+		(pin "24"
+			(uuid "0c9bd4de-a21a-4ed3-8cf8-daa9eefb3b63")
+		)
+		(pin "25"
+			(uuid "a1e3b9c8-bf0c-4ea3-a2c7-4ae1ab7de3c9")
+		)
+		(pin "26"
+			(uuid "d7fb41e5-8a0c-4359-8a9c-394b3da2f56a")
+		)
+		(pin "27"
+			(uuid "aa0a5c03-f50a-4764-b703-eceb154eb072")
+		)
+		(pin "28"
+			(uuid "7e41fb56-a7ee-46a9-bf32-d645f73db6ea")
+		)
+		(pin "29"
+			(uuid "0d709d59-0a23-44c2-9928-64082737851f")
+		)
+		(pin "3"
+			(uuid "d41df2c5-86c4-4261-8e6b-168c64cd2fde")
+		)
+		(pin "30"
+			(uuid "97e1f202-dc98-40cc-a158-dad411fd3f67")
+		)
+		(pin "31"
+			(uuid "3f216f0c-16b6-4847-8f7f-98be193ae6cb")
+		)
+		(pin "32"
+			(uuid "6fdb3c85-d3d9-479d-aa1d-4778e1946b1a")
+		)
+		(pin "33"
+			(uuid "059ea18e-0f8f-468d-b007-7bce0df211b5")
+		)
+		(pin "34"
+			(uuid "70384663-8d93-4483-8a26-9465c179aa42")
+		)
+		(pin "35"
+			(uuid "1bdcd714-5a92-4ded-b827-7f4cda524d4f")
+		)
+		(pin "36"
+			(uuid "5a142a33-2f54-40c8-8b30-bdf9d6b94335")
+		)
+		(pin "37"
+			(uuid "2029dcab-bb55-428b-a702-2a985fc96e24")
+		)
+		(pin "38"
+			(uuid "ad264ecc-238b-48cb-94b6-0760dade708c")
+		)
+		(pin "39"
+			(uuid "8bfb2483-1210-49bf-b464-03396dfa5917")
+		)
+		(pin "4"
+			(uuid "534cbd46-bf5d-490b-a5f0-879900c3e83f")
+		)
+		(pin "40"
+			(uuid "a629612d-35b6-4499-89f0-88ec37c8bd1a")
+		)
+		(pin "41"
+			(uuid "a1b1ab7a-0734-4647-8377-afb8f81c5c1d")
+		)
+		(pin "42"
+			(uuid "e78c76d5-0e43-4965-99bf-ec7461e14b97")
+		)
+		(pin "43"
+			(uuid "0fc1cd7c-aae9-4fc2-813e-c732841a88eb")
+		)
+		(pin "44"
+			(uuid "6b85a860-9e58-4ab9-a50c-35b5480537a0")
+		)
+		(pin "45"
+			(uuid "d1302c7d-1714-4f86-9628-e18d4959d954")
+		)
+		(pin "46"
+			(uuid "e781b121-9178-4ad7-b22f-881b99c9b5a6")
+		)
+		(pin "47"
+			(uuid "cad9c5cb-a83c-456e-8a4b-17aa71f6b931")
+		)
+		(pin "48"
+			(uuid "e6e5e610-112d-4d7f-ad5e-51f0ac630e55")
+		)
+		(pin "5"
+			(uuid "744e1ab7-6083-4e2b-b6af-fa111ff996f6")
+		)
+		(pin "6"
+			(uuid "8666051c-451e-4810-a114-e47dce3a8638")
+		)
+		(pin "7"
+			(uuid "a158d357-3897-41ae-9833-bb591f9ff4bc")
+		)
+		(pin "8"
+			(uuid "83b2556c-8f5d-4b0e-bdd8-35214b689c69")
+		)
+		(pin "9"
+			(uuid "7844a18c-6f6c-4390-bb41-204e3b2ce6d9")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:C-EUC0805")
+		(at 140.97 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b55b0e22-d199-4d68-83ec-51f219b87584")
+		(property "Reference" "C10"
+			(at 142.494 219.329 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0805"
+			(at 142.494 224.409 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:C0805"
+			(at 140.97 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d134ef8-35b2-4683-830f-c31450c479af")
+		)
+		(pin "2"
+			(uuid "e93d68ae-4cef-4b88-8a1c-c8cbe41230ff")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:GND")
+		(at 306.07 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd5a485f-8c8a-4b09-b41a-964970104f27")
+		(property "Reference" "#GND20"
+			(at 306.07 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 303.53 173.99 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 306.07 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 306.07 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 306.07 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6b75c2c-c728-45ae-8038-547e66c005de")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "#GND20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:C-EUC0402")
+		(at 102.87 95.25 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8361435-cd16-49f7-b4f8-7975d881a0f2")
+		(property "Reference" "C2"
+			(at 101.346 95.631 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0402"
+			(at 101.346 90.551 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:C0402"
+			(at 102.87 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cffcca6f-b222-4ac2-bb87-00af5ea7564f")
+		)
+		(pin "2"
+			(uuid "524239c4-4ae3-4288-bcb7-b437b67bf2db")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:GND")
+		(at 158.75 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce83bb24-f2dd-44dd-ada4-46d0178c7299")
+		(property "Reference" "#GND15"
+			(at 158.75 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 156.21 234.95 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56097698-c160-4ec4-8254-21a1c37d0f13")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "#GND15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:PASSER-04")
+		(at 323.85 271.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d29fc74d-3256-4678-897d-9ce5795db70b")
+		(property "Reference" "X3"
+			(at 323.85 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PASSER-04"
+			(at 323.85 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:PASSER_04MM"
+			(at 323.85 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 323.85 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 323.85 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "X3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:C-EUC0402")
+		(at 295.91 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d54282fd-5e5c-414b-b3ff-95fcb063b6a4")
+		(property "Reference" "C15"
+			(at 296.291 47.244 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0402"
+			(at 291.211 47.244 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:C0402"
+			(at 295.91 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 295.91 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 295.91 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6e2f7e1-de36-4c71-871b-9babcbb8cb88")
+		)
+		(pin "2"
+			(uuid "29248f79-45fe-4d77-ad29-1a26d8c90ff2")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:PASSER-04")
+		(at 317.5 271.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d945e939-6b6c-446c-98ff-1f603a151a5c")
+		(property "Reference" "X2"
+			(at 317.5 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PASSER-04"
+			(at 317.5 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:PASSER_04MM"
+			(at 317.5 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 317.5 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 317.5 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "X2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:GND")
+		(at 166.37 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dfa0c1a0-1be8-4742-887b-64782c30fdd3")
+		(property "Reference" "#GND3"
+			(at 166.37 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 163.83 194.31 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a0bdf36-da73-4f15-9598-3898820db6b4")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "#GND3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:PAD-0.5_NC")
+		(at 115.57 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "edcd23d8-53e1-4690-b46f-49ff68aa43d8")
+		(property "Reference" "CFG6"
+			(at 113.665 156.21 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PAD-0.5_NC"
+			(at 115.57 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:PAD-0.5_NC"
+			(at 115.57 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60b3544b-bf4b-4f0a-b177-d51eaa429870")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "CFG6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:R-EU_R0402")
+		(at 275.59 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef97b744-d837-49b9-968b-c3c1ddd94ec6")
+		(property "Reference" "R9"
+			(at 271.78 235.9914 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "R-EU_R0402"
+			(at 271.78 240.792 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:R0402"
+			(at 275.59 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 275.59 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69c56db1-b770-4da6-aa35-668d25dfc3bf")
+		)
+		(pin "2"
+			(uuid "74680e6a-c176-4a9d-885a-a89247015fb8")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:GND")
+		(at 151.13 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9d2d796-4a24-4854-ae2c-70260bd40fa4")
+		(property "Reference" "#GND1"
+			(at 151.13 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 194.31 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1233b30d-d0a4-4503-a239-20dcbde6803d")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "#GND1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:C-EUC0402")
+		(at 120.65 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb0a5df5-eed9-4a24-89af-b0636a07cb9f")
+		(property "Reference" "C3"
+			(at 120.269 75.946 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "C-EUC0402"
+			(at 125.349 75.946 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "SilentStepStick-TMC5160_v13:C0402"
+			(at 120.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7c3d99a-1627-451b-bc44-3289c39fb807")
+		)
+		(pin "2"
+			(uuid "cde14244-de71-4d65-ad1e-e6b759a577b9")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:GND")
+		(at 173.99 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "feec3ca8-f67e-4027-a2bb-076fe142ef76")
+		(property "Reference" "#GND4"
+			(at 173.99 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 194.31 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15efec98-3ab4-4f74-8176-7b420492b208")
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "#GND4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SilentStepStick-TMC5160_v13-eagle-import:FRAME-A3L")
+		(at 17.78 279.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff2c5d42-ab04-469a-babd-e7af645f34db")
+		(property "Reference" "#FRAME1"
+			(at 17.78 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "FRAME-A3L"
+			(at 17.78 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 17.78 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/0473d0fa-3594-40c8-9290-94726960dacd"
+					(reference "#FRAME1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

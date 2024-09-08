@@ -1,0 +1,9 @@
+*backup*
+.ccls
+.clang_complete
+.gcc-flags.json
+.ccls
+*backup*
+*FCBak
+src/micropython/__pycache__
+.pio

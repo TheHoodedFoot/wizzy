@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="62mm"
+   height="17mm"
+   viewBox="0 0 62 17"
+   id="svg4149"
+   version="1.1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   sodipodi:docname="silentstepstick_pinout.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata
+     id="metadata38">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4151" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.9999999"
+     inkscape:cx="104.8125"
+     inkscape:cy="46.4375"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:showpageshadow="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-global="true"
+     inkscape:document-rotation="0"
+     inkscape:pagecheckerboard="0"
+     height="16mm"
+     inkscape:snap-page="true"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:window-width="2525"
+     inkscape:window-height="1550"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       id="grid2"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="2.54"
+       spacingy="2.54"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="10"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="rect1"
+       style="fill:#000000;stroke-width:0.03;stroke-linejoin:round"
+       d="m 6.4781084,11.558109 v 2.283782 H 8.761891 v -2.283782 z m 0.37126,0.370795 H 8.391096 v 1.541727 H 6.8493684 Z" />
+    <text
+       xml:space="preserve"
+       x="-8.8102608"
+       y="8.3675232"
+       id="text1440"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;line-height:1.2;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;stroke-width:0.999999"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         x="-8.8102608"
+         y="8.3675232"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.67862"
+         id="tspan13924">GND</tspan></text>
+    <path
+       id="path2"
+       style="fill:#000000;stroke-width:0.03;stroke-linejoin:round"
+       d="m 9.0181083,11.558109 v 2.283782 h 2.2837827 v -2.283782 z m 0.37126,0.370795 h 1.5417277 v 1.541727 H 9.3893683 Z" />
+    <path
+       id="path3"
+       style="fill:#000000;stroke-width:0.03;stroke-linejoin:round"
+       d="m 11.558108,11.558109 v 2.283782 h 2.283783 v -2.283782 z m 0.37126,0.370795 h 1.541728 v 1.541727 h -1.541728 z" />
+    <path
+       id="path4"
+       style="fill:#000000;stroke-width:0.03;stroke-linejoin:round"
+       d="m 14.098108,11.558109 v 2.283782 h 2.283783 v -2.283782 z m 0.37126,0.370795 h 1.541728 v 1.541727 h -1.541728 z" />
+    <path
+       id="path5"
+       style="fill:#000000;stroke-width:0.03;stroke-linejoin:round"
+       d="m 16.638108,11.558109 v 2.283782 h 2.283782 v -2.283782 z m 0.37126,0.370795 h 1.541727 v 1.541727 h -1.541727 z" />
+    <path
+       id="path6"
+       style="fill:#000000;stroke-width:0.03;stroke-linejoin:round"
+       d="m 19.178108,11.558109 v 2.283782 h 2.283782 v -2.283782 z m 0.37126,0.370795 h 1.541727 v 1.541727 h -1.541727 z" />
+    <path
+       id="path7"
+       style="fill:#000000;stroke-width:0.03;stroke-linejoin:round"
+       d="m 21.718107,11.558109 v 2.283782 h 2.283783 v -2.283782 z m 0.37126,0.370795 h 1.541728 v 1.541727 h -1.541728 z" />
+    <path
+       id="path8"
+       style="fill:#000000;stroke-width:0.03;stroke-linejoin:round"
+       d="m 24.258107,11.558109 v 2.283782 h 2.283783 v -2.283782 z m 0.37126,0.370795 h 1.541728 v 1.541727 h -1.541728 z" />
+    <text
+       xml:space="preserve"
+       x="-9.0594349"
+       y="10.907523"
+       id="text8"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;line-height:1.2;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;stroke-width:0.999999"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         x="-9.0594349"
+         y="10.907523"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.67862"
+         id="tspan8">VIO</tspan></text>
+    <text
+       xml:space="preserve"
+       x="-8.6456013"
+       y="13.447523"
+       id="text9"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;line-height:1.2;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;stroke-width:0.999999"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         x="-8.6456013"
+         y="13.447523"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.67862"
+         id="tspan9">M1B</tspan></text>
+    <text
+       xml:space="preserve"
+       x="-8.7286596"
+       y="15.987523"
+       id="text10"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;line-height:1.2;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;stroke-width:0.999999"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         x="-8.7286596"
+         y="15.987523"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.67862"
+         id="tspan10">M1A</tspan></text>
+    <text
+       xml:space="preserve"
+       x="-8.7286596"
+       y="18.527523"
+       id="text11"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;line-height:1.2;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;stroke-width:0.999999"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         x="-8.7286596"
+         y="18.527523"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.67862"
+         id="tspan11">M2A</tspan></text>
+    <text
+       xml:space="preserve"
+       x="-8.6456013"
+       y="21.067522"
+       id="text12"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;line-height:1.2;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;stroke-width:0.999999"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         x="-8.6456013"
+         y="21.067522"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.67862"
+         id="tspan12">M2B</tspan></text>
+    <text
+       xml:space="preserve"
+       x="-8.8102608"
+       y="23.607523"
+       id="text13"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;line-height:1.2;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;stroke-width:0.999999"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         x="-8.8102608"
+         y="23.607523"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.67862"
+         id="tspan13">GND</tspan></text>
+    <text
+       xml:space="preserve"
+       x="-9.2255516"
+       y="26.147522"
+       id="text14"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;line-height:1.2;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;stroke-width:0.999999"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         x="-9.2255516"
+         y="26.147522"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.67862"
+         id="tspan14">VM</tspan></text>
+    <path
+       id="path14"
+       style="fill:#000000;stroke-width:0.03;stroke-linejoin:round"
+       d="m 34.418108,3.9381089 v 2.283782 h 2.283782 v -2.283782 z m 0.37126,0.370795 h 1.541727 v 1.541727 h -1.541727 z" />
+    <text
+       xml:space="preserve"
+       x="-8.2131386"
+       y="36.307518"
+       id="text15"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;line-height:1.2;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;stroke-width:0.999999"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         x="-8.2131386"
+         y="36.307518"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.67862"
+         id="tspan15">DIR</tspan></text>
+    <path
+       id="path15"
+       style="fill:#000000;stroke-width:0.03;stroke-linejoin:round"
+       d="m 36.958107,3.9381089 v 2.283782 h 2.283783 v -2.283782 z m 0.37126,0.370795 h 1.541728 v 1.541727 h -1.541728 z" />
+    <path
+       id="path16"
+       style="fill:#000000;stroke-width:0.03;stroke-linejoin:round"
+       d="m 39.498107,3.9381089 v 2.283782 h 2.283783 v -2.283782 z m 0.37126,0.370795 h 1.541728 v 1.541727 h -1.541728 z" />
+    <path
+       id="path17"
+       style="fill:#000000;stroke-width:0.03;stroke-linejoin:round"
+       d="m 42.038107,3.9381089 v 2.283782 h 2.283783 v -2.283782 z m 0.37126,0.370795 h 1.541728 v 1.541727 h -1.541728 z" />
+    <path
+       id="path18"
+       style="fill:#000000;stroke-width:0.03;stroke-linejoin:round"
+       d="m 44.578107,3.9381089 v 2.283782 h 2.283782 v -2.283782 z m 0.37126,0.370795 h 1.541727 v 1.541727 h -1.541727 z" />
+    <path
+       id="path19"
+       style="fill:#000000;stroke-width:0.03;stroke-linejoin:round"
+       d="m 47.118107,3.9381089 v 2.283782 h 2.283782 v -2.283782 z m 0.37126,0.370795 h 1.541727 v 1.541727 h -1.541727 z" />
+    <path
+       id="path20"
+       style="fill:#000000;stroke-width:0.03;stroke-linejoin:round"
+       d="m 49.658106,3.9381089 v 2.283782 h 2.283783 v -2.283782 z m 0.37126,0.370795 h 1.541728 v 1.541727 h -1.541728 z" />
+    <path
+       id="path21"
+       style="fill:#000000;stroke-width:0.03;stroke-linejoin:round"
+       d="m 52.198106,3.9381089 v 2.283782 h 2.283783 v -2.283782 z m 0.37126,0.370795 h 1.541728 v 1.541727 h -1.541728 z" />
+    <text
+       xml:space="preserve"
+       x="-8.8756609"
+       y="38.847519"
+       id="text21"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;line-height:1.2;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;stroke-width:0.999999"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         x="-8.8756609"
+         y="38.847519"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.67862"
+         id="tspan21">STEP</tspan></text>
+    <text
+       xml:space="preserve"
+       x="-8.710516"
+       y="41.38752"
+       id="text22"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;line-height:1.2;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;stroke-width:0.999999"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         x="-8.710516"
+         y="41.38752"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.67862"
+         id="tspan22">DCO</tspan></text>
+    <text
+       xml:space="preserve"
+       x="-8.627943"
+       y="43.927521"
+       id="text23"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;line-height:1.2;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;stroke-width:0.999999"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         x="-8.627943"
+         y="43.927521"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.67862"
+         id="tspan23">SDO</tspan></text>
+    <text
+       xml:space="preserve"
+       x="-7.7147894"
+       y="46.467518"
+       id="text24"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;line-height:1.2;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;stroke-width:0.999999"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         x="-7.7147894"
+         y="46.467518"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.67862"
+         id="tspan24">CS</tspan></text>
+    <text
+       xml:space="preserve"
+       x="-8.4584274"
+       y="49.007519"
+       id="text25"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;line-height:1.2;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;stroke-width:0.999999"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         x="-8.4584274"
+         y="49.007519"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.67862"
+         id="tspan25">SCK</tspan></text>
+    <text
+       xml:space="preserve"
+       x="-8.1276512"
+       y="51.54752"
+       id="text26"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;line-height:1.2;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;stroke-width:0.999999"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         x="-8.1276512"
+         y="51.54752"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.67862"
+         id="tspan26">SDI</tspan></text>
+    <text
+       xml:space="preserve"
+       x="-7.8794489"
+       y="54.087517"
+       id="text27"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;line-height:1.2;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;word-spacing:0px;stroke-width:0.999999"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         x="-7.8794489"
+         y="54.087517"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:1.98951px;font-family:Virtue;-inkscape-font-specification:'Virtue, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.67862"
+         id="tspan27">EN</tspan></text>
+  </g>
+</svg>
