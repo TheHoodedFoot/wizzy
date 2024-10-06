@@ -1,0 +1,3 @@
+[submodule "sub/apriltag"]
+	path = sub/apriltag
+	url = https://rfb:fanuc@git.47or.com/thf/apriltag.git
