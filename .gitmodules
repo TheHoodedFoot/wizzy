@@ -4,3 +4,6 @@
 [submodule "sub/apriltag-generation"]
 	path = sub/apriltag-generation
 	url = https://rfb:fanuc@git.47or.com/thf/apriltag-generation.git
+[submodule "sub/akvirtualcamera"]
+	path = sub/akvirtualcamera
+	url = https://github.com/webcamoid/akvirtualcamera.git

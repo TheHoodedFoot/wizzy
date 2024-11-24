@@ -1,0 +1,46 @@
+Owlsight on Gentoo
+------------------
+
+Raspberry Pi 4
+--------------
+
+Don't use genkernel. Instead, perform the following steps:
+
+        make distclean
+        make bcm2711_defconfig
+        make menuconfig (enable btrfs, default_gov)
+        make
+        make install modules_install dtbs_install
+
+This should create a kernel and initramfs that end with '-v8'.
+
+Use the following config.txt:
+
+        arm_64bit=1
+        arm_boost=1  
+        camera_auto_detect=0   
+        disable_fw_kms_setup=1
+        os_check=0
+
+        #dtoverlay=rpivid-v4l2
+        dtoverlay=vc4-kms-v3d,cma-512                  
+        dtoverlay=ov64a40,link-frequency=360000000
+        max_framebuffers=2
+
+Create a symlink in '/dev/dma_heap' called 'vidbuf_cached' which points to the
+device node 253,1 in the same directory. This should be named 'reserved' or
+'linux,cma'.
+
+
+Stream Test
+-----------
+
+On the Pi:
+
+        rpicam-vid -t 0 --inline --listen -o tcp://0.0.0.0:9999
+
+On the receiving PC:
+
+       ffplay tcp://192.168.1.160:9999 -vf "setpts=N/30" -fflags nobuffer -flags low_delay -framedrop 
+
+(ffplay is installed when ffmpeg is compiled with the sdl flag).
