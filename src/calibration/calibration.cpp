@@ -5,7 +5,6 @@
 #include "opencv2/imgcodecs.hpp"
 #include "opencv2/videoio.hpp"
 #include "opencv2/highgui.hpp"
-//#include <opencv2/objdetect/charuco_detector.hpp>
 
 #include <cctype>
 #include <stdio.h>
@@ -150,12 +149,6 @@ static void calcChessboardCorners(Size boardSize, float squareSize, vector<Point
                                           float(i*squareSize), 0));
         break;
 
-      case CHARUCOBOARD:
-        for( int i = 0; i < boardSize.height-1; i++ )
-            for( int j = 0; j < boardSize.width-1; j++ )
-                corners.push_back(Point3f(float(j*squareSize),
-                                          float(i*squareSize), 0));
-        break;
       default:
         CV_Error(Error::StsBadArg, "Unknown pattern type\n");
     }
@@ -372,7 +365,7 @@ int main( int argc, char** argv )
     Mat cameraMatrix, distCoeffs;
     string outputFilename;
     string inputFilename = "";
-    //int arucoDict;
+    int arucoDict;
     string dictFilename;
 
     int i, nframes;
@@ -386,7 +379,7 @@ int main( int argc, char** argv )
     int delay;
     clock_t prevTimestamp = 0;
     int mode = DETECTION;
-    int cameraId = 0;
+    int cameraId = 1;
     vector<vector<Point2f>> imagePoints;
     vector<string> imageList;
     Pattern pattern = CHESSBOARD;
@@ -423,7 +416,6 @@ int main( int argc, char** argv )
     squareSize = parser.get<float>("s");
     markerSize = parser.get<float>("ms");
 
-
     dictFilename = parser.get<std::string>("adf");
     nframes = parser.get<int>("n");
     delay = parser.get<int>("d");
@@ -444,7 +436,7 @@ int main( int argc, char** argv )
         outputFilename = parser.get<string>("o");
     showUndistorted = parser.has("su");
     if ( isdigit(parser.get<string>("@input_data")[0]) )
-        cameraId = parser.get<int>("@input_data");
+        cameraId = 2;
     else
         inputFilename = parser.get<string>("@input_data");
     int winSize = parser.get<int>("ws");

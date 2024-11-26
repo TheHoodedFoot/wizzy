@@ -8,3 +8,4 @@
 src/micropython/__pycache__
 .pio
 calibrate
+compile_commands.json
