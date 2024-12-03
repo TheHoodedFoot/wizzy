@@ -12,3 +12,16 @@ calibrate2:	src/calibration/calibration.cpp
 
 calibrate: src/calibration/calibration.cpp
 	bear -- clang++ $(shell pkg-config --cflags opencv4) $(shell pkg-config --libs opencv4) -o $@ $^
+CC = gcc
+CFLAGS = -Wall -Wextra -std=c11
+
+all: hello
+
+hello: hello.c
+	$(CC) $(CFLAGS) -o hello hello.c
+
+run: hello
+	./hello
+
+clean:
+	rm -f hello
