@@ -12,3 +12,6 @@ calibrate2:	src/calibration/calibration.cpp
 
 calibrate: src/calibration/calibration.cpp
 	bear -- clang++ $(shell pkg-config --cflags opencv4) $(shell pkg-config --libs opencv4) -o $@ $^
+
+basic: src/calibration/videocapture_basic.cpp
+	bear -- clang++ $(shell pkg-config --cflags opencv4) $(shell pkg-config --libs opencv4) -o $@ $^
