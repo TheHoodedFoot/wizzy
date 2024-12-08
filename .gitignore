@@ -9,3 +9,8 @@ src/micropython/__pycache__
 .pio
 calibrate
 compile_commands.json
+.aider.chat.history.md
+.aider.input.history
+.aider.tags.cache.v3
+.aider*
+.env
