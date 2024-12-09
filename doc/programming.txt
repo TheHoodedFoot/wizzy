@@ -1,0 +1,35 @@
+
+Every single book and tutorial out there will fail you and send you down the wrong path from the beginning, making learning harder than it needs to be. Fortunately the missing information isn't much:
+
+    Always enable the full set of compiler warnings. They are disabled by default:
+
+    GCC, Clang: -Wall -Wextra (also consider -Wconversion)
+    MSVC: /W4
+
+    Do not test your program if it compiled with warnings.
+
+    Enable sanitizers for all testing (except benchmarks). A good baseline is Address Sanitizer and Undefined Behavior Sanitizer:
+
+    GCC, Clang: -fsanitize=address,undefined
+    MSVC: /fsanitize=address
+
+    Configure sanitizers to trap in a debugger when they trigger, plus increase thoroughness. This is done by environment variables at run time. On Linux:
+
+      export ASAN_OPTIONS=abort_on_error=1:halt_on_error=1:detect_stack_use_after_return=1
+      export UBSAN_OPTIONS=abort_on_error=1:halt_on_error=1
+
+    MSVC defaults to the correct behavior, so no configuration needed.
+
+    Never test your program directly. Always run it through a debugger. Do not exit the debugger between runs; just start the program again in the same session after you rebuild. Your debugger will automatically pick up the newly-built version. Keep your session going, including state such as breakpoints. Unix-likes:
+
+      gdb -tui program
+
+    MSVC:
+
+      devenv program.exe
+
+    When a sanitizer detects an error, it will pause in the debugger for you so that you can look around the frozen program and figure it out.
+
+    Do not printf-debug. Learn to use your debugger instead. It's a worthwhile investment that will pay for itself. The first time you run code you just wrote, consider stepping through it in a debugger to check it's working as you expect.
+
+With all that in mind, you can continue going through the book/tutorial with less trouble.
