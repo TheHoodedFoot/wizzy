@@ -7,3 +7,6 @@
 [submodule "sub/akvirtualcamera"]
 	path = sub/akvirtualcamera
 	url = https://github.com/webcamoid/akvirtualcamera.git
+[submodule "sub/LCCV"]
+	path = sub/LCCV
+	url = https://github.com/kbarni/LCCV.git
