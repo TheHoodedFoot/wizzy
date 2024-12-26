@@ -16,5 +16,5 @@ __pycache__
 basic
 calibrate
 compile_commands.json
-src/simple-cam/simplecam
-simplecam
+wizzcam
+!src/wizzcam

@@ -1,8 +1,22 @@
-/* SPDX-License-Identifier: GPL-2.0-or-later */
-/*
- * Copyright (C) 2020, Ideas on Board Oy.
+/**
+ * @file raspicam.cpp
  *
- * A simple libcamera capture example
+ * @brief Raspberry Pi streaming server with OpenCV calibration
+ *
+ * Uses libcamera to capture and encode images, OpenCV to calibrate the camera,
+ * and Apriltags to detect fiducial markers.
+ *
+ * Outline:
+ * 1. Use libcamera to detect cameras and setup a camera.
+ * 2. Create an event loop using libevent.
+ * 3. Within the event loop, use libcamera to capture a frame.
+ * 4. Use OpenCV to remove distortion from the image using existing calibration data
+ * 5. Use Apriltags to detect any fiducials in the image
+ * 6. Use OpenCV to highlight the detected fiducials.
+ * 7. Use the Raspberry Pi's H.264 hardware encoder to encode the image
+ * 8. Stream the encoded image over the network.
+ * 9. Notify the client of any detected fiducials.
+ *
  */
 
 #include <iomanip>
@@ -13,7 +27,7 @@
 
 #include "event_loop.h"
 
-#define TIMEOUT_SEC 3
+#define TIMEOUT_SEC 1
 
 using namespace libcamera;
 static std::shared_ptr<Camera> camera;
@@ -288,14 +302,14 @@ int main()
 	/*
 	 * The Camera configuration procedure fails with invalid parameters.
 	 */
-#if 0
-	streamConfig.size.width = 0; //4096
-	streamConfig.size.height = 0; //2560
+#if 1
+	streamConfig.size.width = 4056; //4096
+	streamConfig.size.height = 3040; //2560
 
-	int ret = camera->configure(config.get());
-	if (ret) {
+	int retv = camera->configure(config.get());
+	if (retv) {
 		std::cout << "CONFIGURATION FAILED!" << std::endl;
-		return EXIT_FAILURE;
+		// return EXIT_FAILURE;
 	}
 #endif
 
@@ -459,3 +473,97 @@ int main()
 
 	return EXIT_SUCCESS;
 }
+
+/**
+ * @brief Capture a frame from the camera
+ *
+ * This function captures a single frame from the camera using libcamera.
+ *
+ * @param request The request object to capture the frame
+ */
+// void captureFrame(Request *request)
+// {
+//     // TODO: Implement frame capturing logic
+// }
+
+/**
+ * @brief Remove distortion from the captured image
+ *
+ * This function uses OpenCV to remove distortion from the captured image
+ * based on existing calibration data.
+ *
+ * @param frame The captured frame
+ * @return The undistorted frame
+ */
+// cv::Mat removeDistortion(const cv::Mat &frame)
+// {
+//     // TODO: Implement distortion removal logic
+//     return cv::Mat();
+// }
+//
+/**
+ * @brief Detect fiducial markers in the image
+ *
+ * This function uses Apriltags to detect any fiducial markers in the image.
+ *
+ * @param frame The undistorted frame
+ * @return A list of detected fiducials
+ */
+// std::vector<AprilTag> detectFiducials(const cv::Mat &frame)
+// {
+//     // TODO: Implement fiducial detection logic
+//     return std::vector<AprilTag>();
+// }
+//
+/**
+ * @brief Highlight the detected fiducials in the image
+ *
+ * This function uses OpenCV to highlight the detected fiducials in the image.
+ *
+ * @param frame The undistorted frame
+ * @param fiducials The list of detected fiducials
+ * @return The highlighted frame
+ */
+// cv::Mat highlightFiducials(const cv::Mat &frame, const std::vector<AprilTag> &fiducials)
+// {
+//     // TODO: Implement highlighting logic
+//     return cv::Mat();
+// }
+//
+/**
+ * @brief Encode the image using the Raspberry Pi's H.264 hardware encoder
+ *
+ * This function uses the Raspberry Pi's H.264 hardware encoder to encode the image.
+ *
+ * @param frame The highlighted frame
+ * @return The encoded image
+ */
+// std::vector<uint8_t> encodeImage(const cv::Mat &frame)
+// {
+//     // TODO: Implement encoding logic
+//     return std::vector<uint8_t>();
+// }
+//
+/**
+ * @brief Stream the encoded image over the network
+ *
+ * This function streams the encoded image over the network to a client.
+ *
+ * @param encodedImage The encoded image
+ */
+// void streamImage(const std::vector<uint8_t> &encodedImage)
+// {
+//     // TODO: Implement streaming logic
+// }
+//
+/**
+ * @brief Notify the client of any detected fiducials
+ *
+ * This function notifies the client of any detected fiducials.
+ *
+ * @param fiducials The list of detected fiducials
+//  */
+// void notifyClient(const std::vector<AprilTag> &fiducials)
+// {
+//     // TODO: Implement notification logic
+// }

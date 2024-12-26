@@ -16,9 +16,9 @@ basic: src/calibration/videocapture_basic.cpp
 
 CPPFLAGS = -Wall -Wextra -Wpedantic -Werror -Wfatal-errors# -Wconversion
 
-simplecam:	src/simple-cam/simple-cam.o src/simple-cam/event_loop.o
+wizzcam:	src/wizzcam/wizzcam.o src/wizzcam/event_loop.o
 	clang++ $(CPPFLAGS) -o $@ $^ $$(pkg-config --libs libevent_pthreads) $$(pkg-config --libs libcamera)
-	sed -e '1s/^/[\n/' -e '$$s/,$$/\n]/' src/simple-cam/*.o.json > compile_commands.json
+	sed -e '1s/^/[\n/' -e '$$s/,$$/\n]/' src/wizzcam/*.o.json > compile_commands.json
 
 %.o:	%.cpp
 	clang++ $(CPPFLAGS) -c -MJ $@.json -o $@ $$(pkg-config --cflags libcamera) $^
@@ -26,4 +26,4 @@ simplecam:	src/simple-cam/simple-cam.o src/simple-cam/event_loop.o
 .PHONY: 	clean
 
 clean:
-	rm -f src/simple-cam/*.o src/simple-cam/*.o.json src/simple-cam/simplecam compile_commands.json
+	rm -f src/wizzcam/*.o src/wizzcam/*.o.json wizzcam compile_commands.json
